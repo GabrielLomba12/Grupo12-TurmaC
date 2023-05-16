@@ -143,16 +143,16 @@ public static String textCopaDoMundo() {
     System.out.print("Sua opção: ");
     char respostaPerguntaEscolhaDoTime = sc.next().toUpperCase().charAt(0);
 
-    String[] regioes = new String[] {
+    String[] regioes = new String[] { //VETOR QUE ARMAZENA AS REGIÕES DISPONÍVEIS
         "Nordeste", "Sudeste", "Sul"
     };
-    String[] clubesNordeste = new String[] { // VETOR NORDESTE
+    String[] clubesNordeste = new String[] { // VETOR DE CLUBES NORDESTE
         "Fortaleza", "Sport", "Ceará"
     };
-    String[] clubesSudeste = new String[] { // VETOR SUDESTE
+    String[] clubesSudeste = new String[] { // VETOR DE CLUBES SUDESTE
         "Ituano", "Agua Santa", "Mirassol"
     };
-    String[] clubesSul = new String[] { // VETOR SUL
+    String[] clubesSul = new String[] { // VETOR DE CLUBES SUL
         "Chapecoense", "Criciúma", "Avaí"
     };
 
