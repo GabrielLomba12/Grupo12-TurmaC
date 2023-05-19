@@ -478,7 +478,7 @@ public static String textCopaDoMundo() {
         Thread.sleep(3000);
       }
 
-      System.out.println("\nSe prepare para a última pergunta..Seu futuro será decidido aqui!");
+      System.out.println("\nSe prepare para a última pergunta...Seu futuro será decidido aqui!");
       Thread.sleep(2500);
       System.out.print("----------------------------------------------------------------------------------------------------------");
 
