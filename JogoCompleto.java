@@ -1160,7 +1160,7 @@ public static String textCopaDoMundo() {
             case 'A':
             case 'B':
             case 'D':
-                System.out.println("Resposta incorreta! O jogador com hat-tricks é o Cristinao Ronaldo, com 61 marcos na carreira!");
+                System.out.println("Resposta incorreta! O jogador com hat-tricks é o Cristiano Ronaldo, com 61 marcos na carreira!");
                 System.out.println("\nE assim, você acabou indo bem mal nesta partida e seu time foi eliminado. Parece até que você sentiu a pressão de jogar com o estádio lotado.");
                 System.out.println("Sua pontução: " + pontuaçao);
                 break;
@@ -1250,7 +1250,7 @@ public static String textCopaDoMundo() {
     char pergunta5;
     if (pergunta3 =='D'){
         
-            System.out.println("\n\nHoje é a útilma rodada do Brasileirão e o " + timeAtual +  " só não pode perder para conquistar o Brasileirão, vença a partida e conquiste este título.\nAlém disso, você está disputandoa a artilharia do campeonato com o Gabigol, do Flamengo. Você vai precisar de dois gols para ultrapassá-lo.");
+            System.out.println("\n\nHoje é a última rodada do Brasileirão e o " + timeAtual +  " só não pode perder para conquistar o Brasileirão, vença a partida e conquiste este título.\nAlém disso, você está disputandoa a artilharia do campeonato com o Gabigol, do Flamengo. Você vai precisar de dois gols para ultrapassá-lo.");
             Thread.sleep(3000);
 
             System.out.print("----------------------------------------------------------------------------------------------------------");
@@ -1269,7 +1269,7 @@ public static String textCopaDoMundo() {
                     break;
                 case 'B':
                     System.out.println("Reposta correta!");
-                    System.out.println("\nPARABÉNS!! O " + timeAtual + " consguiu derrotar o Coritiba por 5x0, onde você marcou 3 gols e conseguiram conquistar o tão sonhado título do Brasileirão!");
+                    System.out.println("\nPARABÉNS!! O " + timeAtual + " conseguiu derrotar o Coritiba por 5x0, onde você marcou 3 gols e conseguiram conquistar o tão sonhado título do Brasileirão!");
                     System.out.println("Que temporada mágica!! Além do título você ainda se consagrou artilheiro do campeonato, com 25 gols!");
                     pontuaçao += 20;
                     System.out.println("Sua pontução: " + pontuaçao);
@@ -1316,8 +1316,8 @@ public static String textCopaDoMundo() {
     Thread.sleep(3000);
     char pergunta6;
     if(pergunta4 =='B'){
-        System.out.println("Você chegou na tão sonhada final de Libertadores e jogará contra o River Plate!\nEste com certeza é o jogo da sua vida até então!");
-        System.out.println("Os torcedores estão num grande expectativa sobre o seu desempenho! Não os decepcione!");
+        System.out.println("\n\nVocê chegou na tão sonhada final de Libertadores e jogará contra o River Plate!\nEste com certeza é o jogo da sua vida até então!");
+        System.out.println("Os torcedores estão numa grande expectativa sobre o seu desempenho! Não os decepcione!");
         Thread.sleep(3000);
 
         System.out.print("----------------------------------------------------------------------------------------------------------");
@@ -1351,7 +1351,7 @@ public static String textCopaDoMundo() {
 
     if (pontuaçao >= 60){
         System.out.println("Parabéns foi destaque do ano e despertou interesse de clubes Europeus!");
-        System.out.println("Desta forma você avançou para a fase 3!");
+        System.out.println("Desta forma você avançou para a fase 3!\n");
         Thread.sleep(3000);
         textFaseTres();   
         Thread.sleep(3000);         
