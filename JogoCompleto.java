@@ -1215,7 +1215,7 @@ public static String textCopaDoMundo() {
     char pergunta4 = '0';
     if(pergunta2 == 'C'){
         
-            System.out.println("\n\nPerto do fim da temporada, o " + timeAtual + " tem um jogo importantíssimo, válido pela semifinal da Libertadores, num grande clássico contra o Corinthinas!!\nO jogo de ida foi 0 à 0 no casa do adversário. Mentenha o foco, vença a partida e avance para a final do campeonato.");
+            System.out.println("\n\nPerto do fim da temporada, o " + timeAtual + " tem um jogo importantíssimo, válido pela semifinal da Libertadores, num grande clássico contra o Corinthians!!\nO jogo de ida foi 0 à 0 no casa do adversário. Mentenha o foco, vença a partida e avance para a final do campeonato.");
             Thread.sleep(3000);
 
             System.out.print("----------------------------------------------------------------------------------------------------------");
