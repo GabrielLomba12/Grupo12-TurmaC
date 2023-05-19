@@ -135,8 +135,11 @@ public static String textCopaDoMundo() {
 
     System.out.println("\nQual time da EUROPA possui o maior número de títulos da Champions League?");
     System.out.println("a) Real Madrid\nb) Bayern de Munique\nc) Barcelona\nd) Milan"); // Real Madrid
-    System.out.print("Sua opção: ");
-    char respostaPerguntaEscolhaDoTime = sc.next().toUpperCase().charAt(0);
+    char respostaPerguntaEscolhaDoTime;
+    do{
+      System.out.print("Sua opção: ");
+      respostaPerguntaEscolhaDoTime = sc.next().toUpperCase().charAt(0);
+    }while(respostaPerguntaEscolhaDoTime != 'A' && respostaPerguntaEscolhaDoTime != 'B' && respostaPerguntaEscolhaDoTime != 'C' && respostaPerguntaEscolhaDoTime != 'D');
 
     String[] regioes = new String[] { //VETOR QUE ARMAZENA AS REGIÕES DISPONÍVEIS
         "Nordeste", "Sudeste", "Sul"
