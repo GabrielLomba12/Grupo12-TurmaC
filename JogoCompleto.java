@@ -698,7 +698,7 @@ public static String textCopaDoMundo() {
         Thread.sleep(3000);
       }
 
-      System.out.println("\nSe prepare para a última pergunta..Seu futuro será decidido aqui!");
+      System.out.println("\nSe prepare para a última pergunta...Seu futuro será decidido aqui!");
       Thread.sleep(2500);
       System.out.print("----------------------------------------------------------------------------------------------------------");
 
@@ -915,11 +915,11 @@ public static String textCopaDoMundo() {
       }
 
       else {
-        System.out.println("\nVocê está desempenhando muito mal..\nO " + clubeAtual + " está sendo goleado na final, e você está totalmente perdido em campo.");
+        System.out.println("\nVocê está desempenhando muito mal...\nO " + clubeAtual + " está sendo goleado na final, e você está totalmente perdido em campo.");
         Thread.sleep(3000);
       }
 
-      System.out.println("\nSe prepare para a última pergunta..Seu futuro será decidido aqui!");
+      System.out.println("\nSe prepare para a última pergunta...Seu futuro será decidido aqui!");
       Thread.sleep(2500);
       System.out.print("----------------------------------------------------------------------------------------------------------");
 
