@@ -15,7 +15,7 @@ class JogoCompleto {
         Scanner sc = new Scanner(System.in);
         System.out.println("===============================");
         System.out.println("Tecle enter para voltar ao menu");
-        System.out.println("==============================="):
+        System.out.println("===============================");
         try {
         System. in.read();
         sc.nextLine();}
@@ -48,12 +48,12 @@ class JogoCompleto {
         case 2:
           System.out.println("Você será testado com perguntas gerais sobre futebol.");
           System.out.println("Em cada fase você deve atingir uma pontuação mínima para avançar de fase.");
-          System.out.println("Caso o jogador não atinja a pontuação mínima, ele encerra sua carreira"):
+          System.out.println("Caso o jogador não atinja a pontuação mínima, ele encerra sua carreira");
           tecleParaContinuar();
           break;
         case 3:
           System.out.println("Todos direitos reservados: Jefferson Cavalcante / Gabriel Lomba / Lucas Gouveia / Vitor Cobeio.");
-          System.out.println("2023"):
+          System.out.println("2023");
           tecleParaContinuar();
           break;
         case 4:
