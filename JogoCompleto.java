@@ -1113,7 +1113,7 @@ public static String textCopaDoMundo() {
     Thread.sleep(3000);
 
     System.out.print("----------------------------------------------------------------------------------------------------------");
-    System.out.println("\n1ª Pergunta\nQuem é o maior artilheiro da história do Brasileirão, na era dos ponto corridos?");
+    System.out.println("\n1ª Pergunta\nQuem é o maior artilheiro da história do Brasileirão na era dos ponto corridos?");
     System.out.println("a) Diego Souza");
     System.out.println("b) Gabigol");
     System.out.println("c) Roberto Dinamite");
@@ -1146,7 +1146,7 @@ public static String textCopaDoMundo() {
     char pergunta2;
     
         System.out.println("\n\nAlém do Brasileirão, o " + timeAtual + " está disputando também a Libertadores.");
-        System.out.println("Seu time ja avançou algumas fases, porém você não estava escrito anteriormente. Então hoje será a sua estreia! Esteja preparado.");
+        System.out.println("Seu time já avançou algumas fases, porém você não estava inscrito anteriormente. Então hoje será a sua estreia! Esteja preparado.");
         System.out.println("Para garantir a vitória e o seu bom desempenho na partida, acerte a pergunta:");
         Thread.sleep(3000);
 
