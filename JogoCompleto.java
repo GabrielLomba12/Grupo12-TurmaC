@@ -339,7 +339,7 @@ public static String textCopaDoMundo() {
       System.out.println("\nSua pontuação atual na FASE 1 é de " + pontuacaoJogador + " pontos.");
       Thread.sleep(2000);
       System.out.print("----------------------------------------------------------------------------------------------------------");
-      System.out.println("\n1ª Pergunta\nQual é o maior campeão da Copa do Nordeste?.");
+      System.out.println("\n1ª Pergunta\nQual é o maior campeão da Copa do Nordeste?");
       System.out.println("a) Fortaleza\nb) Bahia\nc) Sport\nd) Ceara"); // Bahia
       System.out.print("Sua Resposta: ");
         char respostaPerguntaUm;
@@ -555,7 +555,7 @@ public static String textCopaDoMundo() {
       System.out.println("\nSua pontuação atual na FASE 1 é de " + pontuacaoJogador + " pontos.");
       Thread.sleep(2000);
       System.out.print("----------------------------------------------------------------------------------------------------------");
-      System.out.println("\n1ª Pergunta\nQual é o maior campeão do Campeonato Paulista?.");
+      System.out.println("\n1ª Pergunta\nQual é o maior campeão do Campeonato Paulista?");
       System.out.println("a) São Paulo\nb) Palmeiras\nc) Corinthians\nd) Santos"); // Corinthians
       System.out.print("Sua Resposta: ");
         char respostaPerguntaUm;
@@ -774,7 +774,7 @@ public static String textCopaDoMundo() {
       System.out.println("\nSua pontuação atual na FASE 1 é de " + pontuacaoJogador + " pontos.");
       Thread.sleep(2000);
       System.out.print("----------------------------------------------------------------------------------------------------------");
-      System.out.println("\n1ª Pergunta\nQual é o maior campeão do Campeonato Gaúcho?.");
+      System.out.println("\n1ª Pergunta\nQual é o maior campeão do Campeonato Gaúcho?");
       System.out.println("a) Juventude\nb) Internacional\nc) Grêmio\nd) Caxias do Sul"); // Gremio
       System.out.print("Sua Resposta: ");
         char respostaPerguntaUm;
