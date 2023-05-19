@@ -2365,7 +2365,7 @@ public static void Fase3() throws InterruptedException {
                 case 'A':       // caso a resposta for umas dessas o ele vai ganhar pontos e vai passar de fase.
                     System.out.println("Resposta correta!, O Sevilla é o maior campeão com 6 títulos.");
                     System.out.println("Parabéns pela estreia!! Você fez uma partida perfeita, marcando dois gol e dando uma linda assistência! Seu técnico está orgulhoso!");
-                    pontos += 5;
+                    pontos += 20;
                     System.out.println("\nSua pontuação: " + pontos);
                     break;
                 default:
@@ -2495,7 +2495,6 @@ public static void Fase3() throws InterruptedException {
               case 'B':
               case 'C':
                   System.out.println("Resposta incorreta. O Botafogo foi campeão em 1995 contra o time do Santos.");
-                  System.out.println("Mesmo com a derrota vamos te dar a chance de responder a última pergunta para recuperar os pontos perdidos.");
                   pontos -= 25;
                   System.out.println("Sua pontuação: " + pontos + "\n");
                   break;
