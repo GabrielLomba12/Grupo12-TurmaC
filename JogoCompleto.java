@@ -46,7 +46,7 @@ class JogoCompleto {
           Jogar();
           break;
         case 2:
-          System.out.println("Você será testado com perguntas gerais sobre futebol. Cada fase do jogo conta com uma pontuação mínima necessária para avançar.");
+          System.out.println("Você será testado com perguntas gerais sobre futebol.");
           System.out.println("Em cada fase você deve atingir uma pontuação mínima para avançar de fase.");
           System.out.println("Caso o jogador não atinja a pontuação mínima, ele encerra sua carreira"):
           tecleParaContinuar();
