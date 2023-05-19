@@ -429,7 +429,7 @@ public static String textCopaDoMundo() {
       }
 
       else{
-        System.out.println("\nVocê está dominando os adversários, e é o maior goleador do campeonato.\nO técnico em uma coletiva de impresa, disse nunca ter visto um jovem com um talento desses..\nSerá incrível assití-lo na final..");
+        System.out.println("\nVocê está dominando os adversários, e é o maior goleador do campeonato.\nO técnico em uma coletiva de imprensa, disse nunca ter visto um jovem com um talento desses..\nSerá incrível assití-lo na final..");
         Thread.sleep(3000);
       }
 
@@ -649,7 +649,7 @@ public static String textCopaDoMundo() {
       }
 
       else{
-        System.out.println("\nVocê está dominando os adversários, e é o maior goleador do campeonato.\nO técnico em uma coletiva de impresa, disse nunca ter visto um jovem com um talento desses..\nSerá incrível assití-lo na final..");
+        System.out.println("\nVocê está dominando os adversários, e é o maior goleador do campeonato.\nO técnico em uma coletiva de imprensa, disse nunca ter visto um jovem com um talento desses..\nSerá incrível assití-lo na final..");
         Thread.sleep(3000);
       }
 
@@ -870,7 +870,7 @@ public static String textCopaDoMundo() {
       }
 
       else{
-        System.out.println("\nVocê está dominando os adversários, e é o maior goleador do campeonato.\nO técnico em uma coletiva de impresa, disse nunca ter visto um jovem com um talento desses..\nSerá incrível assití-lo na final..");
+        System.out.println("\nVocê está dominando os adversários, e é o maior goleador do campeonato.\nO técnico em uma coletiva de imprensa, disse nunca ter visto um jovem com um talento desses..\nSerá incrível assití-lo na final..");
         Thread.sleep(3000);
       }
 
