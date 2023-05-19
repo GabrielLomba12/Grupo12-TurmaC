@@ -1166,7 +1166,7 @@ public static String textCopaDoMundo() {
                 break;
             case 'C':
                 System.out.println("Resposta correta!! Cristiano Ronaldo tem 61 hat-tricks na carreira.");
-                System.out.println("\nVocê foi simplesmente FANTÁSTICO!! Numa noite mágica de Libertadores, você marcou um hat-trick no jogo de ida das oitvas de final contra o Boca Juniors! QUE ESTREIA!");
+                System.out.println("\nVocê foi simplesmente FANTÁSTICO!! Numa noite mágica de Libertadores, você marcou um hat-trick no jogo de ida das oitavas de final contra o Boca Juniors! QUE ESTREIA!");
                 pontuaçao += 20;
                 System.out.println("Sua pontução: " + pontuaçao);
                 break;
@@ -1337,7 +1337,7 @@ public static String textCopaDoMundo() {
                 case 'C':
                 case 'D':
                     System.out.println("Resposta incorreta! Alberto Spencer tem 54 gols.");
-                    System.out.println("Não foi dessa vez... O "  + timeAtual + " perdeu por 1x0 para o River. Porém apesar da derrota, você foi um dos destques do campeonato. Muito bem!");
+                    System.out.println("Não foi dessa vez... O "  + timeAtual + " perdeu por 1x0 para o River. Porém apesar da derrota, você foi um dos destaques do campeonato. Muito bem!");
                     System.out.println("\nSua pontução: " + pontuaçao);
                     break;
                 default:
@@ -2106,7 +2106,8 @@ public static void Fase3() throws InterruptedException {
       System.out.println("Esse jogo será contra a seleção da Argentina pela semifinal.");
       System.out.println("Você precisa vencer esse jogo para avançar para a grande final da competição, boa sorte!");
       Thread.sleep(3000);
-
+       
+      System.out.print("----------------------------------------------------------------------------------------------------------");
       System.out.println("\n4ª Pergunta\nQual desses países NÃO sediou a Copa do Mundo mais de uma vez?");
       System.out.println("A - México");
       System.out.println("B - Espanha");
@@ -2149,7 +2150,7 @@ public static void Fase3() throws InterruptedException {
       Thread.sleep(3000);
 
       System.out.println("----------------------------------------------------------------------------------------------------------");
-      System.out.println("\n5ª Pergunta\nQual desses presidentes da FIFA deu nome ao troféu da Copa do Mundo?");
+      System.out.println("5ª Pergunta\nQual desses presidentes da FIFA deu nome ao troféu da Copa do Mundo?");
       System.out.println("a) Rodolphe Seeldrayers");
       System.out.println("b) Robert Guerin");
       System.out.println("c) Ernst Thommen");
@@ -2167,7 +2168,7 @@ public static void Fase3() throws InterruptedException {
                 System.out.println("||   ||    ||||    ||   ||    ||||    ||   || ||     |||  || ||    ");
                 System.out.println("|||||||   ||  ||   |||||||   ||  ||   ||||||| |||||| || |||| ||||||");
                 System.out.println("||       ||||||||  || |||   ||||||||  ||   || ||     ||  |||     ||");
-                System.out.println("||      ||      || ||  ||| ||      || ||||||| |||||| ||   || ||||||");
+                System.out.println("||      ||      || ||  ||| ||      || ||||||| |||||| ||   || ||||||\n");
                 System.out.println("O BRASIL É HEXA CAMPEÃO DO MUNDO!\nVocê fez de tudo nessa final e concluiu o jogo sendo o grande CAMPEÃO DO MUNDO!");
                 System.out.println("Devolvemos o vexame de 2014! Que partida, craque! Você fez 4 gols e devolvemos o tão falado 7x1!");
                 System.out.println("Estão te chamando por ai de o \"novo Pelé\", que honra, hein?!");
@@ -2199,6 +2200,7 @@ public static void Fase3() throws InterruptedException {
       System.out.println("\nInfelizmente você não conseguiu atingir o máximo que o jogo tem para oferecer, tente jogar novamente para conseguir um melhor final de carreira para o seu jogador!");
       System.out.println("Você concluiu o jogo!");
       System.out.println("Obrigado por jogar Football Career Java! :)");
+      System.exit(0);
     }
   }
 }
