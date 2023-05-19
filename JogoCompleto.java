@@ -2337,7 +2337,7 @@ public static void Fase3() throws InterruptedException {
 
         Thread.sleep(2000);
         int pontos = 60;
-        String perguntaN1;
+        char perguntaN1;
         System.out.println("\nVocê é um jogador que estava jogando na europa, então vai estreiar com uma grande expectativa.\nComo aqui você já é visto como \"estrela\", você iniciará com 60 pontos.\nSe errar as perguntas irá perder pontos, o número final de pontos definirá o fim de sua carreira.");
         System.out.println("Sua pontuação na FASE 4 é de: " + pontos + " pontos.");
         Thread.sleep(3000);
@@ -2350,19 +2350,19 @@ public static void Fase3() throws InterruptedException {
         System.out.println("\n1ª Pergunta\nQual o maior campeão da Europa League?\na) Sevilla\nb) Manchester United\nc) PSV\nd) Villarreal ");
         System.out.print("Sua reposta: ");
         do{
-            perguntaN1 = sc.nextLine().toUpperCase();
+            perguntaN1 = sc.next().toUpperCase().charAt(0);
         
             switch (perguntaN1) {
-                case "B":       // caso a resposta for umas dessas o ele vai perder pontos e vai passar de fase.
-                case "C":
-                case "D":
+                case 'B':       // caso a resposta for umas dessas o ele vai perder pontos e vai passar de fase.
+                case 'C':
+                case 'D':
                     System.out.println("Resposta incorreta! O Sevilla é o maior campeão com 6 títulos.");
                     System.out.println("Errou a pergunta e por isso não fez uma boa estréia, não fique triste, o técnico te dará outras oportunidades.");
                     pontos -= 5;
                     System.out.println("\nSua pontuação: " + pontos);
                     break;
 
-                case "A":       // caso a resposta for umas dessas o ele vai ganhar pontos e vai passar de fase.
+                case 'A':       // caso a resposta for umas dessas o ele vai ganhar pontos e vai passar de fase.
                     System.out.println("Resposta correta!, O Sevilla é o maior campeão com 6 títulos.");
                     System.out.println("Parabéns pela estreia!! Você fez uma partida perfeita, marcando dois gol e dando uma linda assistência! Seu técnico está orgulhoso!");
                     pontos += 5;
@@ -2372,9 +2372,9 @@ public static void Fase3() throws InterruptedException {
                     System.out.print("Opção inválida. Digite novamente: ");
                     break;
             }
-        }while(perguntaN1 != "A" && perguntaN1 != "B" && perguntaN1 != "C" && perguntaN1 != "D");
+        }while(perguntaN1 != 'A' && perguntaN1 != 'B' && perguntaN1 != 'C' && perguntaN1 != 'D');
        
-        String perguntaN2;
+        char perguntaN2;
         System.out.println("\nO " + seuTime + " está disputando o Brasileirão e a Copa Sul-Americana.");
         System.out.println("O " + seuTime + " está nas quartas de final, porém você não era relacionado por conta da falta de regularização de seu contrato. Mas agora com tudo resolvido você fará a sua estreia na copa.");
         System.out.println("Acerte a pergunta abaixo para saber como foi a sua estréia na Sul-Americana.");
@@ -2382,20 +2382,20 @@ public static void Fase3() throws InterruptedException {
 
         System.out.print("----------------------------------------------------------------------------------------------------------");
         System.out.println("\n2ª Pergunta\nQual o clube brasileiro que mais ganhou a Copa Sul-Americana?\na) Internacional\nb) Chapecoense\nc) São Paulo\nd) Athletico-PR");
-
+        System.out.print("Sua reposta: ");
         do{
-            perguntaN2 = sc.nextLine().toUpperCase();
+            perguntaN2 = sc.next().toUpperCase().charAt(0);
 
             switch (perguntaN2) {
-                case "A":       // caso a resposta for umas dessas o ele vai perder pontos e vai passar de fase.
-                case "B":
-                case "C":
+                case 'A':       // caso a resposta for umas dessas o ele vai perder pontos e vai passar de fase.
+                case 'B':
+                case 'C':
                     System.out.println("Resposta incorreta. O Athletico-PR é o maior vencedor com 2 títulos.");
                     System.out.println("Mesmo com uma estreia ruim, não fique triste, pois ainda pode recuperar os pontos perdidos.");
                     pontos -= 10;
                     System.out.println("Sua pontuação: " + pontos + "\n");
                     break;
-                case "D":       // caso a resposta for umas dessas o ele vai ganhar pontos e vai passar de fase.
+                case 'D':       // caso a resposta for umas dessas o ele vai ganhar pontos e vai passar de fase.
                     System.out.println("Resposta correta. O Athletico-PR é o maior vencedor com 2 títulos.");
                     System.out.println("Ótima estreia! Você classificou o " + seuTime + " fazendo dois golaços de bicicleta.");
                     pontos += 20;
@@ -2405,9 +2405,9 @@ public static void Fase3() throws InterruptedException {
                     System.out.print("Opção inválida. Digite novamente: ");
                     break;
             }
-        }while(perguntaN2 != "A" && perguntaN2 != "B" && perguntaN2 != "C" && perguntaN2 != "D");
+        }while(perguntaN2 != 'A' && perguntaN2 != 'B' && perguntaN2 != 'C' && perguntaN2 != 'D');
             
-        String perguntaN3;
+        char perguntaN3;
         Thread.sleep(3000);
         System.out.println("\n\nApós algumas rodadas do brasileirão, o " + seuTime + " vai jogar contra o Cruzeiro lá em Belo Horizonte, pela 35ª rodada, valendo uma classificação para a Copa Libertadores do próximo ano!");
         System.out.println("Acerte a pergunta abaixo para saber se vai classificar ou não o " + seuTime + " para a Libertadores.");
@@ -2415,22 +2415,22 @@ public static void Fase3() throws InterruptedException {
 
         System.out.print("----------------------------------------------------------------------------------------------------------");
         System.out.println("\n3ª Pergunta\nQual jogador que mais recebeu cartões amarelos na história do campeonato brasileiro?\na) Felipe Melo\nb) Índio\nc) Lugano\nd) Fábio Luciano");
-
+        System.out.print("Sua resposta: ");
         do{
-            perguntaN3 = sc.nextLine().toUpperCase();
+            perguntaN3 = sc.next().toUpperCase().charAt(0);
 
             switch (perguntaN3) {
-                case "A":       // caso a resposta for umas dessas o ele vai perder pontos e vai passar de fase.
-                case "C":
-                case "D":
+                case 'A':       // caso a resposta for umas dessas o ele vai perder pontos e vai passar de fase.
+                case 'C':
+                case 'D':
                     System.out.println("Resposta incorreta. O ex-jogador Índio tomou 98 cartões amarelos.");
-                    System.out.println("Com essa derrota o " + seuTime + " precisará ganhar todos os jogos para se classificar para a Libertabores.");
+                    System.out.println("Com essa derrota o " + seuTime + " precisará ganhar todos os jogos para se classificar para a Libertadores.");
                     pontos -= 15;
                     System.out.println("Sua pontuação: " + pontos + "\n");
                     break;
-                case "B":       // caso a resposta for umas dessas o ele vai ganhar pontos e vai passar de fase.
+                case 'B':       // caso a resposta for umas dessas o ele vai ganhar pontos e vai passar de fase.
                     System.out.println("Resposta correta. O ex-jogador Índio tomou 98 cartões amarelos.");
-                    System.out.println("Muito bem! Com essa vitória você garantiu o " + seuTime + " na fase de grupos Copa Libertabores do próximo ano, após esse feito seu técnico de colocou como capitão do time.");
+                    System.out.println("Muito bem! Com essa vitória você garantiu o " + seuTime + " na fase de grupos Copa Libertadores do próximo ano, após esse feito seu técnico de colocou como capitão do time.");
                     pontos += 20;
                     System.out.println("Sua pontuação: " + pontos + "\n");
                     break;
@@ -2438,33 +2438,33 @@ public static void Fase3() throws InterruptedException {
                     System.out.print("Opção inválida. Digite novamente: ");
                     break;
             }
-        }while(perguntaN3 != "A" && perguntaN3 != "B" && perguntaN3 != "C" && perguntaN3 != "D");
+        }while(perguntaN3 != 'A' && perguntaN3 != 'B' && perguntaN3 != 'C' && perguntaN3 != 'D');
 
-        String perguntaN4 = "0";
+        char perguntaN4 = '0';
         Thread.sleep(3000);
-        if(perguntaN2  == "D"){
+        if(perguntaN2  == 'D'){
           System.out.println("Depois da classificação do " + seuTime + " para a semifinal da Sul-Americana. Vocês jogarão contra o San Lorenzo em casa.");
-          System.out.println("O primeiro jogo foi na Argentina e  terminou 2x1 para os argentinos! O jogo de volta será no seu estádio com a obrigação de ganhar!");
+          System.out.println("O primeiro jogo foi na Argentina e terminou 2x1 para os argentinos! O jogo de volta será no seu estádio com a obrigação de ganhar!");
           System.out.println("Acerte a pergunta abaixo para saber se conseguiu reverter o placar negativo.");
           Thread.sleep(3000);
 
           System.out.print("----------------------------------------------------------------------------------------------------------");
           System.out.println("\n4ª Pergunta\nEm que ano não teve uma final da Sul-Americana?\na) 2007\nb) 2013\nc) 2016\nd) 2021");
-
+          System.out.print("Sua resposta: ");
           do{
-              perguntaN4 = sc.nextLine().toUpperCase();
+              perguntaN4 = sc.next().toUpperCase().charAt(0);
 
               switch (perguntaN4) {
-                  case "A":     // caso a resposta for umas dessas o ele vai perder pontos e vai passar de fase.
-                  case "B":
-                  case "D":
-                      System.out.println("Resposta incorreta. Em 2016 não ocorreu a final por causa do tragíco acidente aéreo da Chapecoense.");
+                  case 'A':     // caso a resposta for umas dessas o ele vai perder pontos e vai passar de fase.
+                  case 'B':
+                  case 'D':
+                      System.out.println("Resposta incorreta. Em 2016 não ocorreu a final por causa do trágico acidente aéreo da Chapecoense.");
                       System.out.println("Com essa derrota alguns torcedores começaram a falar que você sente pressão em jogos grandes, prove que eles estão errados.");
                       pontos -= 20;
                       System.out.println("Sua pontuação: " + pontos + "\n");
                       break;
-                  case "C":     // caso a resposta for umas dessas o ele vai ganhar pontos e vai passar de fase.
-                      System.out.println("Resposta correta. Em 2016 não ocorreu a final por causa do tragíco acidente aéreo da Chapecoense.");
+                  case 'C':     // caso a resposta for umas dessas o ele vai ganhar pontos e vai passar de fase.
+                      System.out.println("Resposta correta. Em 2016 não ocorreu a final por causa do trágico acidente aéreo da Chapecoense.");
                       System.out.println("QUE ÓTIMO!! Você fez a sua melhor partida com a camisa do " + seuTime + " classificando o time para a final.");
                       pontos += 20;
                       System.out.println("Sua pontuação: " + pontos + "\n");
@@ -2473,33 +2473,33 @@ public static void Fase3() throws InterruptedException {
                       System.out.print("Opção inválida. Digite novamente: ");
                       break;
               }
-          }while(perguntaN4 != "A" && perguntaN4 != "B" && perguntaN4 != "C" && perguntaN4 != "D");
+          }while(perguntaN4 != 'A' && perguntaN4 != 'B' && perguntaN4 != 'C' && perguntaN4 != 'D');
         }
         
 
-        String perguntaN5;
+        char perguntaN5;
         Thread.sleep(3000);
-        System.out.println("Na última rodada do campeonato brasileiro o " + seuTime + " prescisa muito dessa vitória para conseguir jogar a libertadores sem precisar da pergunta bônus.");
+        System.out.println("Na última rodada do campeonato brasileiro o " + seuTime + " precisa muito dessa vitória para conseguir jogar a libertadores sem precisar da pergunta bônus.");
         System.out.println("Acerte a pergunta abaixo para jogar a Libertadores de 2024.");
         Thread.sleep(3000);
 
 
         System.out.print("----------------------------------------------------------------------------------------------------------");
-        System.out.println("\nPergunta Final Brasileirão\nQual foi o resultado da final do Campeonato Brasileiro de 1995 e quem foi o campeão?\na) Cruzeiro\nb) Santos\nc) Vasco\nd) Botafogo");
-
+        System.out.println("\nPergunta Final Brasileirão\nQual foi o campeão do Campeonato Brasileiro de 1995?\na) Cruzeiro\nb) Santos\nc) Vasco\nd) Botafogo");
+        System.out.print("Sua resposta: ");
         do{
-          perguntaN5 = sc.nextLine().toUpperCase();
+          perguntaN5 = sc.next().toUpperCase().charAt(0);
     
           switch (perguntaN5) {
-              case "A":     // caso a resposta for umas dessas o ele vai perder pontos e vai passar de fase.
-              case "B":
-              case "C":
+              case 'A':     // caso a resposta for umas dessas o ele vai perder pontos e vai passar de fase.
+              case 'B':
+              case 'C':
                   System.out.println("Resposta incorreta. O Botafogo foi campeão em 1995 contra o time do Santos.");
                   System.out.println("Mesmo com a derrota vamos te dar a chance de responder a última pergunta para recuperar os pontos perdidos.");
                   pontos -= 25;
                   System.out.println("Sua pontuação: " + pontos + "\n");
                   break;
-              case "D":     // caso a resposta for umas dessas o ele vai ganhar pontos e vai passar de fase.
+              case 'D':     // caso a resposta for umas dessas o ele vai ganhar pontos e vai passar de fase.
                 System.out.println("Resposta correta. O Botafogo foi campeão em 1995 contra o time do Santos.");
                 System.out.println("QUE ÓTIMO!! Você conseguiu fazer com que o " + seuTime + " se classifica-se para a Libertadres de 2024.");
                 pontos += 20;
@@ -2509,41 +2509,41 @@ public static void Fase3() throws InterruptedException {
                     System.out.println("Opção inválida. Digite novamente.");
                     break;
           }
-        }while(perguntaN5 != "A" && perguntaN5 != "B" && perguntaN5 != "C" && perguntaN5 != "D");
+        }while(perguntaN5 != 'A' && perguntaN5 != 'B' && perguntaN5 != 'C' && perguntaN5 != 'D');
         
-        String perguntaBonus;
+        char perguntaBonus;
         Thread.sleep(3000);
-        if(perguntaN4 == "C"){
-          System.out.println("Agora vamos para jogar a final da Sul-Ameriacana, que vai ser em jogo uníco no estádio do maracanã, contra o Defensa y Justicia.");
+        if(perguntaN4 == 'C'){
+          System.out.println("Agora vamos para jogar a final da Sul-Ameriacana, que vai ser em jogo uníco no estádio do Maracanã, contra o Defensa y Justicia.");
           System.out.println("Acerte a pergunta abaixo para calar a boca dos torcedores que estão te chamando de pipoqueiro.");
           Thread.sleep(3000);
 
           System.out.print("----------------------------------------------------------------------------------------------------------");
           System.out.println("\nPergunta Final Sul-Americana\nQuem foi o jogador mais jovem a marcar um gol na história da Copa Libertadores e qual era a sua idade na época?\na) Ângelo 16 anos\nb) Endrick 16 anos\nc) Luiz Araújo 20 anos\nd) Miguel Borja 22 anos");
-          
+          System.out.print("Sua resposta: ");
+
           do{
-            perguntaBonus = sc.nextLine().toUpperCase();
-      
+            perguntaBonus = sc.next().toUpperCase().charAt(0);
             switch (perguntaBonus) {
-                case "B":       // caso a resposta for umas dessas o ele perde a final, se aposenta e o jogo vai encerrar mostrando os pontos dele.
-                case "C":
-                case "D":
+                case 'B':       // caso a resposta for umas dessas o ele perde a final, se aposenta e o jogo vai encerrar mostrando os pontos dele.
+                case 'C':
+                case 'D':
                     System.out.println("Resposta incorreta. O Ângelo é o jogador mais mais jovem a marcar na Libertadores.");
                     System.out.println("Com a derrota a diretoria do " + seuTime + " decidiu te demitir por não fazer uma boa temporada com o time, com essa notícia você decidiu encerrar a sua carreira.");
                     pontos -= 25;
                     System.out.println("Parabéns você concluiu o nosso jogo com o total: " + pontos + "pontos");
                     break;
-                case "A":       // caso a resposta for essa ele vai ganhar a final e o jogo vai encerrar mostrando os pontos dele.
+                case 'A':       // caso a resposta for essa ele vai ganhar a final e o jogo vai encerrar mostrando os pontos dele.
                   System.out.println("Resposta correta. O Ângelo é o jogador mais mais jovem a marcar na Libertadores.");
-                  System.out.println("É CAMPEÃO!! Você conseguiu fez o " + seuTime + " ser campeão e arrebentou na partida marcando 3 gols na partida.");
+                  System.out.println("É CAMPEÃO!! Você fez o " + seuTime + " ser campeão e arrebentou na partida marcando 3 gols na partida.");
                   pontos += 20;
-                  System.out.println("Parabéns você concluiu o nosso jogo com o total: " + pontos + "pontos");
+                  System.out.println("Parabéns você concluiu o nosso jogo com o total: " + pontos + " pontos");
                   break;
                 default:
                       System.out.print("Opção inválida. Digite novamente: ");
                       break;
             }
-          }while(perguntaBonus != "A" && perguntaBonus != "B" && perguntaBonus != "C" && perguntaBonus != "D");
+          }while(perguntaBonus != 'A' && perguntaBonus != 'B' && perguntaBonus != 'C' && perguntaBonus != 'D');
         }
         
       }
