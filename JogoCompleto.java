@@ -13,9 +13,9 @@ class JogoCompleto {
 
     public static void tecleParaContinuar(){ 
         Scanner sc = new Scanner(System.in);
-        System.out.println("===============================");
-        System.out.println("Tecle enter para voltar ao menu");
-        System.out.println("===============================");
+        System.out.println("========================================");
+        System.out.println("Tecle qualquer coisa para voltar ao menu");
+        System.out.println("========================================");
         try {
         System. in.read();
         sc.nextLine();}
