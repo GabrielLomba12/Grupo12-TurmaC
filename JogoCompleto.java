@@ -13,9 +13,9 @@ class JogoCompleto {
 
     public static void tecleParaContinuar(){ 
         Scanner sc = new Scanner(System.in);
-        System.out.println("=============================");
-        System.out.println("Tecle enter para continuar...");
-        System.out.println("=============================");
+        System.out.println("===============================");
+        System.out.println("Tecle enter para voltar ao menu");
+        System.out.println("==============================="):
         try {
         System. in.read();
         sc.nextLine();}
@@ -46,19 +46,14 @@ class JogoCompleto {
           Jogar();
           break;
         case 2:
-          System.out.println(
-              "Você será testado com perguntas gerais sobre futebol. Cada fase do jogo conta com uma pontuação mínima necessária para avançar.");
-          System.out.println(
-              "- Na 1° Fase, o jogo conta com uma pergunta inicial apenas para definir seu clube e região, que não será contabilizada no resultado final de cada fase");
-
-          System.out.println("- O jogador será testado com 5 perguntas, que valem 20 pontos cada. Ele deve conseguir no MÍNIMO 60 pontos para avançar para a 2° fase.");
-          System.out.println("- Além da pontuação exigida, o jogador deve OBRIGATORIAMENTE acertar a pergunta final.");
-          System.out.println("- Caso o jogador não atinja a pontuação mínima, ele deverá refazer a 1° fase.");
+          System.out.println("Você será testado com perguntas gerais sobre futebol. Cada fase do jogo conta com uma pontuação mínima necessária para avançar.");
+          System.out.println("Em cada fase você deve atingir uma pontuação mínima para avançar de fase.");
+          System.out.println("Caso o jogador não atinja a pontuação mínima, ele encerra sua carreira"):
           tecleParaContinuar();
           break;
         case 3:
-          System.out.println(
-              "Jogo desenvolvido pelos alunos do 1° semestre de ADS: Jefferson Cavalcante / Gabriel Lomba / Lucas Gouveia / Vitor Cobeio.");
+          System.out.println("Todos direitos reservados: Jefferson Cavalcante / Gabriel Lomba / Lucas Gouveia / Vitor Cobeio.");
+          System.out.println("2023"):
           tecleParaContinuar();
           break;
         case 4:
