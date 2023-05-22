@@ -2207,7 +2207,7 @@ public static void Fase3() throws InterruptedException {
         Scanner sc = new Scanner(System.in);
         Random rd = new Random();
         String seuTime = "0";
-        System.out.println("\nApós você rescindir o contrato com seu antigo clube, você se vê sem opções na Europa e decide voltar para o Brasil");
+        System.out.println("\nApós você rescindir o contrato com seu antigo clube, você se vê sem opções na Europa e decide voltar para o Brasil.");
         System.out.println("\nClubes das regiões Sudeste e Nordeste estão querendo te contratar.");
         System.out.println("Você tem o direito de escolher a região.");    
         System.out.println("1) Sudeste\n2) Nordeste");
