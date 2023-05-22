@@ -1105,7 +1105,6 @@ public static String textCopaDoMundo() {
             break;
     }
     int pontuaçao = 0;
-    //char pergunta1  = '0';
     char pergunta1;
     System.out.println("\nAgora que definimos o seu novo time, vamos iniciar sua temporada!");
     System.out.println("\nVocê esta estreiando pelo " + timeAtual + " e irá enfrentar o Fortaleza pela primeira rodada do Brasileirão.");
@@ -1113,7 +1112,7 @@ public static String textCopaDoMundo() {
     Thread.sleep(3000);
 
     System.out.print("\n----------------------------------------------------------------------------------------------------------");
-    System.out.println("\n1ª Pergunta\nQuem é o maior artilheiro da história do Brasileirão na era dos ponto corridos?");
+    System.out.println("\n1ª Pergunta\nQuem é o maior artilheiro da história do Brasileirão na era dos pontos corridos?");
     System.out.println("a) Diego Souza");
     System.out.println("b) Gabigol");
     System.out.println("c) Roberto Dinamite");
@@ -1131,7 +1130,7 @@ public static String textCopaDoMundo() {
             System.out.println("Sua pontução: " + pontuaçao);
             break;
         case 'C':
-            System.out.println("Resposta correta!, Roberto Dinamite tem 190 gols.");
+            System.out.println("Resposta correta! Roberto Dinamite tem 190 gols.");
             System.out.println("\nQUE ESTREIA!! Você fez uma ótima partida, marcando um gol e dando duas belas assistências! Assim, ganhando moral com o clube!");
             pontuaçao += 20;
             System.out.println("Sua pontuação: " + pontuaçao);
@@ -1778,12 +1777,7 @@ public static void Fase3() throws InterruptedException {
               System.out.println("\nVocê não conseguiu sua vaga na copa do mundo, mas pode finalizar sua carreira com honra na...");
               Thread.sleep(2000);
               textFaseQuatro();
-
               Fase4();
-
-              System.out.println("\nVocê concluiu o jogo!");
-              System.out.println("Infelizmente você não conseguiu atingir o máximo que o jogo tem para oferecer, tente jogar novamente para conseguir um melhor final de carreira para o seu jogador!");
-              System.out.println("Obrigado por jogar Soccer Carrer Java! :)");
               break;
             }
 
@@ -1840,12 +1834,7 @@ public static void Fase3() throws InterruptedException {
                 System.out.println("\nVocê não conseguiu sua vaga na copa do mundo, mas pode finalizar sua carreira com honra na...");
                 Thread.sleep(2000);
                 textFaseQuatro();
-
                 Fase4();
-
-                System.out.println("\nVocê concluiu o jogo!");
-                System.out.println("Infelizmente você não conseguiu atingir o máximo que o jogo tem para oferecer, tente jogar novamente para conseguir um melhor final de carreira para o seu jogador!");
-                System.out.println("Obrigado por jogar Soccer Carrer Java! :)");
                 break;
               }
 
@@ -1908,12 +1897,7 @@ public static void Fase3() throws InterruptedException {
                 System.out.println("\nVocê não conseguiu sua vaga na copa do mundo, mas pode finalizar sua carreira com honra na...");
                 Thread.sleep(2000);
                 textFaseQuatro();
-
                 Fase4();
-
-                System.out.println("\nVocê concluiu o jogo!");
-                System.out.println("Infelizmente você não conseguiu atingir o máximo que o jogo tem para oferecer, tente jogar novamente para conseguir um melhor final de carreira para o seu jogador!");
-                System.out.println("Obrigado por jogar Soccer Carrer Java! :)");
                 break;
               }
 
@@ -1966,12 +1950,7 @@ public static void Fase3() throws InterruptedException {
               System.out.println("\nVocê não conseguiu sua vaga na copa do mundo, mas pode finalizar sua carreira com honra na...");
               Thread.sleep(2000);
               textFaseQuatro();
-
               Fase4();
-
-              System.out.println("\nVocê concluiu o jogo!");
-              System.out.println("Infelizmente você não conseguiu atingir o máximo que o jogo tem para oferecer, tente jogar novamente para conseguir um melhor final de carreira para o seu jogador!");
-              System.out.println("Obrigado por jogar Soccer Carrer Java! :)");
               break;
 
             default:
@@ -2075,6 +2054,7 @@ public static void Fase3() throws InterruptedException {
       System.out.println("b) Todos os pênaltis da Costa Rica acertaram a trave");
       System.out.println("c) Louis van Gaal colocou um goleiro reserva para a disputa de pênaltis");
       System.out.println("d) Apenas um pênalti foi marcado");
+      System.out.print("Sua reposta: ");
 
         do {
             perguntaCopa3 = sc.next().toUpperCase().charAt(0);
@@ -2114,6 +2094,7 @@ public static void Fase3() throws InterruptedException {
       System.out.println("c) Itália");
       System.out.println("d) França");
       System.out.println("e) Alemanha");
+      System.out.print("Sua reposta: ");
 
         do {
             perguntaCopa4 = sc.next().toUpperCase().charAt(0);
@@ -2156,6 +2137,7 @@ public static void Fase3() throws InterruptedException {
       System.out.println("c) Ernst Thommen");
       System.out.println("d) Gianni Infantino");
       System.out.println("e) Jules Rimet");
+      System.out.print("Sua reposta: ");
 
         do {
           perguntaFinalCopa = sc.next().toUpperCase().charAt(0);
@@ -2360,14 +2342,14 @@ public static void Fase3() throws InterruptedException {
                 case 'D':
                     System.out.println("Resposta incorreta! O Sevilla é o maior campeão com 6 títulos.");
                     System.out.println("Errou a pergunta e por isso não fez uma boa estréia, não fique triste, o técnico te dará outras oportunidades.");
-                    pontos -= 5;
+                    pontos -= 10;
                     System.out.println("\nSua pontuação: " + pontos);
                     break;
 
                 case 'A':       // caso a resposta for umas dessas o ele vai ganhar pontos e vai passar de fase.
                     System.out.println("Resposta correta!, O Sevilla é o maior campeão com 6 títulos.");
                     System.out.println("Parabéns pela estreia!! Você fez uma partida perfeita, marcando dois gol e dando uma linda assistência! Seu técnico está orgulhoso!");
-                    pontos += 20;
+                    pontos += 10;
                     System.out.println("\nSua pontuação: " + pontos);
                     break;
                 default:
@@ -2400,7 +2382,7 @@ public static void Fase3() throws InterruptedException {
                 case 'D':       // caso a resposta for umas dessas o ele vai ganhar pontos e vai passar de fase.
                     System.out.println("Resposta correta. O Athletico-PR é o maior vencedor com 2 títulos.");
                     System.out.println("Ótima estreia! Você classificou o " + seuTime + " fazendo dois golaços de bicicleta.");
-                    pontos += 20;
+                    pontos += 10;
                     System.out.println("Sua pontuação: " + pontos + "\n");
                     break;
                 default:
@@ -2427,13 +2409,13 @@ public static void Fase3() throws InterruptedException {
                 case 'D':
                     System.out.println("Resposta incorreta. O ex-jogador Índio tomou 98 cartões amarelos.");
                     System.out.println("Com essa derrota o " + seuTime + " precisará ganhar todos os jogos para se classificar para a Libertadores.");
-                    pontos -= 15;
+                    pontos -= 10;
                     System.out.println("Sua pontuação: " + pontos + "\n");
                     break;
                 case 'B':       // caso a resposta for umas dessas o ele vai ganhar pontos e vai passar de fase.
                     System.out.println("Resposta correta. O ex-jogador Índio tomou 98 cartões amarelos.");
                     System.out.println("Muito bem! Com essa vitória você garantiu o " + seuTime + " na fase de grupos Copa Libertadores do próximo ano, após esse feito seu técnico de colocou como capitão do time.");
-                    pontos += 20;
+                    pontos += 10;
                     System.out.println("Sua pontuação: " + pontos + "\n");
                     break;
                 default:
@@ -2462,13 +2444,13 @@ public static void Fase3() throws InterruptedException {
                   case 'D':
                       System.out.println("Resposta incorreta. Em 2016 não ocorreu a final por causa do trágico acidente aéreo da Chapecoense.");
                       System.out.println("Com essa derrota alguns torcedores começaram a falar que você sente pressão em jogos grandes, prove que eles estão errados.");
-                      pontos -= 20;
+                      pontos -= 10;
                       System.out.println("Sua pontuação: " + pontos + "\n");
                       break;
                   case 'C':     // caso a resposta for umas dessas o ele vai ganhar pontos e vai passar de fase.
                       System.out.println("Resposta correta. Em 2016 não ocorreu a final por causa do trágico acidente aéreo da Chapecoense.");
                       System.out.println("QUE ÓTIMO!! Você fez a sua melhor partida com a camisa do " + seuTime + " classificando o time para a final.");
-                      pontos += 20;
+                      pontos += 10;
                       System.out.println("Sua pontuação: " + pontos + "\n");
                       break;
                   default:
@@ -2497,13 +2479,13 @@ public static void Fase3() throws InterruptedException {
               case 'B':
               case 'C':
                   System.out.println("Resposta incorreta. O Botafogo foi campeão em 1995 contra o time do Santos.");
-                  pontos -= 25;
+                  pontos -= 10;
                   System.out.println("Sua pontuação: " + pontos + "\n");
                   break;
               case 'D':     // caso a resposta for umas dessas o ele vai ganhar pontos e vai passar de fase.
                 System.out.println("Resposta correta. O Botafogo foi campeão em 1995 contra o time do Santos.");
                 System.out.println("QUE ÓTIMO!! Você conseguiu fazer com que o " + seuTime + " se classifica-se para a Libertadres de 2024.");
-                pontos += 20;
+                pontos += 10;
                 System.out.println("Sua pontuação: " + pontos + "\n");
                 break;
               default:
@@ -2531,14 +2513,14 @@ public static void Fase3() throws InterruptedException {
                 case 'D':
                     System.out.println("Resposta incorreta. O Ângelo é o jogador mais mais jovem a marcar na Libertadores.");
                     System.out.println("Com a derrota a diretoria do " + seuTime + " decidiu te demitir por não fazer uma boa temporada com o time, com essa notícia você decidiu encerrar a sua carreira.");
-                    pontos -= 25;
+                    pontos -= 10;
                     System.out.println("Parabéns você concluiu o nosso jogo com o total: " + pontos + "pontos");
                     break;
                 case 'A':       // caso a resposta for essa ele vai ganhar a final e o jogo vai encerrar mostrando os pontos dele.
                   System.out.println("Resposta correta. O Ângelo é o jogador mais mais jovem a marcar na Libertadores.");
                   System.out.println("É CAMPEÃO!! Você fez o " + seuTime + " ser campeão e arrebentou na partida marcando 3 gols na partida.");
-                  pontos += 20;
-                  System.out.println("Parabéns você concluiu o nosso jogo com o total: " + pontos + " pontos");
+                  pontos += 10;
+                  System.out.println("Sua pontuação: " + pontos + "\n");
                   break;
                 default:
                       System.out.print("Opção inválida. Digite novamente: ");
@@ -2546,6 +2528,14 @@ public static void Fase3() throws InterruptedException {
             }
           }while(perguntaBonus != 'A' && perguntaBonus != 'B' && perguntaBonus != 'C' && perguntaBonus != 'D');
         }
-        
+        if(pontos >= 60){
+            System.out.println("Parabéns!! Sua volta ao Brasil rendeu bons frutos! Quem sabe uma possível volta à Europa num futuro próximo seja possível...");
+            System.out.println("Desta forma, encerramos aqui sua carreira no Football Career Java!");
+            System.exit(0);
+        }else{
+            System.out.print("Sua volta ao Brasil não foi tão boa quanto o esperado, você deixou a desejar em vários aspectos.");
+            System.out.print("E com isso, encerramos aqui sua carreira no Football Career Java!");
+            System.exit(0);
+        }
       }
   }
