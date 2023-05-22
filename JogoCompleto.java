@@ -694,7 +694,7 @@ public static String textCopaDoMundo() {
       }
         
       else if(pontuacaoJogador <= 20){
-        System.out.println("\nQue decepção... O " + clubeAtual + "depositou muita confiança no seu desempenho e você não entregou o que era necessário.\nE com isso, encerramos aqui sua carreira no Football Career Java!");
+        System.out.println("\nQue decepção... O " + clubeAtual + " depositou muita confiança no seu desempenho e você não entregou o que era necessário.\nE com isso, encerramos aqui sua carreira no Football Career Java!");
         System.exit(0);
       }
 
