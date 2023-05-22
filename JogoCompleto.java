@@ -2356,7 +2356,7 @@ public static void Fase3() throws InterruptedException {
                 case 'C':
                 case 'D':
                     System.out.println("Resposta incorreta! O Sevilla é o maior campeão com 6 títulos.");
-                    System.out.println("Errou a pergunta e por isso não fez uma boa estréia, não fique triste, o técnico te dará outras oportunidades.");
+                    System.out.println("Errou a pergunta e por isso não fez uma boa estreia, não fique triste, o técnico te dará outras oportunidades.");
                     pontos -= 10;
                     System.out.println("\nSua pontuação: " + pontos);
                     break;
@@ -2376,7 +2376,7 @@ public static void Fase3() throws InterruptedException {
         char perguntaN2;
         System.out.println("\nO " + seuTime + " está disputando o Brasileirão e a Copa Sul-Americana.");
         System.out.println("O " + seuTime + " está nas quartas de final, porém você não era relacionado por conta da falta de regularização de seu contrato. Mas agora com tudo resolvido você fará a sua estreia na copa.");
-        System.out.println("Acerte a pergunta abaixo para saber como foi a sua estréia na Sul-Americana.");
+        System.out.println("Acerte a pergunta abaixo para saber como foi a sua estreia na Sul-Americana.");
         Thread.sleep(3000);
 
         System.out.print("\n----------------------------------------------------------------------------------------------------------");
