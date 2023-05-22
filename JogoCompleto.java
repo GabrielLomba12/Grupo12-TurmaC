@@ -472,6 +472,11 @@ public static String textCopaDoMundo() {
         System.out.println("\nO " + clubeAtual + " está goleando o adversário na final, graças ao seu desempenho de gala.\nCom certeza muitos clubes estão de olho no seu jovem talento..");
         Thread.sleep(3000);
       }
+        
+      else if(pontuacaoJogador <= 20){
+          System.out.println("\nQue decepção... O " + clubeAtual + "depositou muita confiança no seu desempenho e você não entregou o que era necessário.\nE com isso, encerramos aqui sua carreira no Football Career Java!");
+          System.exit(0);
+      }
 
       else {
         System.out.println("\nVocê está desempenhando muito mal..\nO " + clubeAtual + " está sendo goleado na final, e você está totalmente perdido em campo.");
@@ -686,6 +691,11 @@ public static String textCopaDoMundo() {
       if(pontuacaoJogador == 40){
         System.out.println("\nSeu time está na final do campeonato, e saiu perdendo no primeiro tempo por 2 x 0.\nO segundo tempo será o tudo ou nada, você precisa dar o seu máximo para alcançar o título do Campeonato Paulista.");
         Thread.sleep(3000);
+      }
+        
+      else if(pontuacaoJogador <= 20){
+        System.out.println("\nQue decepção... O " + clubeAtual + "depositou muita confiança no seu desempenho e você não entregou o que era necessário.\nE com isso, encerramos aqui sua carreira no Football Career Java!");
+        System.exit(0);
       }
 
       else if(pontuacaoJogador >= 60){
@@ -913,6 +923,11 @@ public static String textCopaDoMundo() {
         System.out.println("\nO " + clubeAtual + " está goleando o adversário na final, graças ao seu desempenho de gala.\nCom certeza muitos clubes estão de olho no seu jovem talento..");
         Thread.sleep(3000);
       }
+        
+      else if(pontuacaoJogador <= 20){
+        System.out.println("\nQue decepção... O " + clubeAtual + "depositou muita confiança no seu desempenho e você não entregou o que era necessário.\nE com isso, encerramos aqui sua carreira no Football Career Java!");
+        System.exit(0);
+      }
 
       else {
         System.out.println("\nVocê está desempenhando muito mal...\nO " + clubeAtual + " está sendo goleado na final, e você está totalmente perdido em campo.");
@@ -1107,7 +1122,7 @@ public static String textCopaDoMundo() {
     int pontuaçao = 0;
     char pergunta1;
     System.out.println("\nAgora que definimos o seu novo time, vamos iniciar sua temporada!");
-    System.out.println("\nVocê está estreiando pelo " + timeAtual + " e irá enfrentar o Fortaleza pela primeira rodada do Brasileirão.");
+    System.out.println("\nVocê esta estreiando pelo " + timeAtual + " e irá enfrentar o Fortaleza pela primeira rodada do Brasileirão.");
     System.out.println("Mas antes de tudo, você deve acertar uma pergunta para ter a certeza que se sairá bem na sua estreia!");
     Thread.sleep(3000);
 
