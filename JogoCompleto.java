@@ -1107,7 +1107,7 @@ public static String textCopaDoMundo() {
     int pontuaçao = 0;
     char pergunta1;
     System.out.println("\nAgora que definimos o seu novo time, vamos iniciar sua temporada!");
-    System.out.println("\nVocê esta estreiando pelo " + timeAtual + " e irá enfrentar o Fortaleza pela primeira rodada do Brasileirão.");
+    System.out.println("\nVocê está estreiando pelo " + timeAtual + " e irá enfrentar o Fortaleza pela primeira rodada do Brasileirão.");
     System.out.println("Mas antes de tudo, você deve acertar uma pergunta para ter a certeza que se sairá bem na sua estreia!");
     Thread.sleep(3000);
 
