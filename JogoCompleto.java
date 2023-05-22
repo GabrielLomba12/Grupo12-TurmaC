@@ -2155,7 +2155,7 @@ public static void Fase3() throws InterruptedException {
       System.out.println("b) Robert Guerin");
       System.out.println("c) Ernst Thommen");
       System.out.println("d) Gianni Infantino");
-      System.out.println("e) Júlio Rimet");
+      System.out.println("e) Jules Rimet");
 
         do {
             perguntaCopa5 = sc.next().toUpperCase().charAt(0);
