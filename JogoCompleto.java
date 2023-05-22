@@ -100,7 +100,7 @@ public static String textFaseTres() {
 
 public static String textFaseQuatro() {
   StringBuilder sb = new StringBuilder();
-  System.out.println("||||||||||    ||||||||     |||||||||||   |||||||||||           ||      ||");
+  System.out.println("\n||||||||||    ||||||||     |||||||||||   |||||||||||           ||      ||");
   System.out.println("||           ||      ||    ||            ||                    ||      ||");
   System.out.println("|||||||      ||      ||    ||||||||||    |||||||||             ||||||||||");
   System.out.println("||           ||||||||||            ||    ||                            ||");
@@ -110,7 +110,7 @@ public static String textFaseQuatro() {
 
 public static String textCopaDoMundo() {
   StringBuilder sb = new StringBuilder();
-  System.out.println("||||||||| ||||||||||  ||||||||   |||||||        |||||||   |||||||||        ||    ||   ||   ||  ||||   |  |||||||    |||||||||");
+  System.out.println("\n||||||||| ||||||||||  ||||||||   |||||||        |||||||   |||||||||        ||    ||   ||   ||  ||||   |  |||||||    |||||||||");
   System.out.println("||        ||      ||  ||    ||  ||     ||       ||    ||| ||     ||        ||||||||   ||   ||  || ||  |  ||    |||  ||     ||");
   System.out.println("||        ||      ||  ||||||||  ||     ||       ||    ||| ||     ||        || || ||   ||   ||  ||  || |  ||    |||  ||     ||");
   System.out.println("||        ||      ||  ||        |||||||||       ||    ||| ||     ||        ||    ||   ||   ||  ||   |||  ||    |||  ||     ||");
@@ -126,12 +126,12 @@ public static String textCopaDoMundo() {
     Thread.sleep(3000); 
     textFaseUm(); 
 
-    System.out.printf("\n\nO primeiro passo é escolher a região onde deseja iniciar sua carreira.");
+    System.out.printf("\nO primeiro passo é escolher a região onde deseja iniciar sua carreira.");
     System.out.printf("\nOpções:\nNordeste / Sudeste / Sul");
-    System.out.println("\n\nAntes, você precisa mostrar o seu conhecimento em futebol, com questões de múltipla escolha.\nSe acertar terá direito de escolher a região e o clube.\nSe errar o jogo irá fazer um sorteio para você.\n");
+    System.out.println("\n\nAntes, você precisa mostrar o seu conhecimento em futebol, com questões de múltipla escolha.\nSe acertar terá direito de escolher a região e o clube.\nSe errar o jogo irá fazer um sorteio para você.");
     Thread.sleep(3000);
     
-    System.out.print("----------------------------------------------------------------------------------------------------------");
+    System.out.print("\n----------------------------------------------------------------------------------------------------------");
 
     System.out.println("\nQual time da EUROPA possui o maior número de títulos da Champions League?");
     System.out.println("a) Real Madrid\nb) Bayern de Munique\nc) Barcelona\nd) Milan"); // Real Madrid
@@ -290,7 +290,7 @@ public static String textCopaDoMundo() {
       case 'C':
       case 'D':
         System.out.println("Resposta Incorreta!");
-        System.out.println("O jogo irá sortear uma região para você.");
+        System.out.println("\nO jogo irá sortear uma região para você.");
         String regiaoSorteada;
 
         regiaoSorteada = regioes[rd.nextInt(regioes.length)];
@@ -322,15 +322,15 @@ public static String textCopaDoMundo() {
       System.out.println("\nVocê chegou em um ótimo momento, seu clube está disputando a Copa do Nordeste, e sua chegada será de grande ajuda!");
 
           if(clubeAtual == clubesNordeste[0] || clubeSorteado == clubesNordeste[0]){
-            System.out.println("O " + clubeAtual + " está na fase de mata-mata do campeonato, e você tem a chance de mostrar para que veio, e, por isso, será escalado como titular no primeiro jogo.\n");
+            System.out.println("O " + clubeAtual + " está na fase de mata-mata do campeonato, e você tem a chance de mostrar para que veio, e por isso, será escalado como titular no primeiro jogo.\n");
             Thread.sleep(3000);
           }
           if(clubeAtual == clubesNordeste[1] || clubeSorteado == clubesNordeste[1]){
-            System.out.println( "O " + clubeAtual + " está na fase de mata-mata do campeonato, e você tem a chance de mostrar para que veio, e, por isso, será escalado como titular no primeiro jogo.\n");
+            System.out.println( "O " + clubeAtual + " está na fase de mata-mata do campeonato, e você tem a chance de mostrar para que veio, e por isso, será escalado como titular no primeiro jogo.\n");
             Thread.sleep(3000);
           }
           if(clubeAtual == clubesNordeste[2] || clubeSorteado == clubesNordeste[2]){
-            System.out.println("O " + clubeAtual + " está na fase de mata-mata do campeonato, e você tem a chance de mostrar para que veio, e, por isso, será escalado como titular no primeiro jogo.\n");
+            System.out.println("O " + clubeAtual + " está na fase de mata-mata do campeonato, e você tem a chance de mostrar para que veio, e por isso, será escalado como titular no primeiro jogo.\n");
             Thread.sleep(3000);
           }
       
@@ -338,7 +338,7 @@ public static String textCopaDoMundo() {
       System.out.println("As perguntas que forem respondidas corretamente somarão 20 pontos a sua pontuação.");
       System.out.println("\nSua pontuação atual na FASE 1 é de " + pontuacaoJogador + " pontos.");
       Thread.sleep(2000);
-      System.out.print("----------------------------------------------------------------------------------------------------------");
+      System.out.print("\n----------------------------------------------------------------------------------------------------------");
       System.out.println("\n1ª Pergunta\nQual é o maior campeão da Copa do Nordeste?");
       System.out.println("a) Fortaleza\nb) Bahia\nc) Sport\nd) Ceara"); // Bahia
       System.out.print("Sua Resposta: ");
@@ -364,7 +364,7 @@ public static String textCopaDoMundo() {
       Thread.sleep(2000);
       System.out.println("\nO " + clubeAtual + " tem outro grande desafio pela frente, e você precisa mostrar seu talento para a torcida, e justificar a escolha do técnico.");
       Thread.sleep(3000);
-      System.out.print("----------------------------------------------------------------------------------------------------------");
+      System.out.print("\n----------------------------------------------------------------------------------------------------------");
 
       System.out.println("\n2ª Pergunta\nEm que ano o jogador Lionel Messi ganhou seu primeiro prêmio de Melhor do Mundo?");
       System.out.println("a) 2008\nb) 2011\nc) 2009\nd) 2010"); // 2009
@@ -392,7 +392,7 @@ public static String textCopaDoMundo() {
       Thread.sleep(2000);
       System.out.println("\nVocê está avançando no campeonato. Será que seu desempenho está agradando a torcida do " + clubeAtual + " ?\nSe prepare para o próximo confronto contra o ABC, pela semi-final.");
       Thread.sleep(3000);
-      System.out.print("----------------------------------------------------------------------------------------------------------");
+      System.out.print("\n----------------------------------------------------------------------------------------------------------");
 
       System.out.println("\n3ª Pergunta\nQuando foi realizada a primeira edição da Copa do Mundo?");
       System.out.println("a) 1930 - Uruguai\nb) 1926 - Itália\nc) 1950 - Alemanha\nd) 1942 - México"); // 1930 Uruguai
@@ -429,13 +429,13 @@ public static String textCopaDoMundo() {
       }
 
       else{
-        System.out.println("\nVocê está dominando os adversários, e é o maior goleador do campeonato.\nO técnico em uma coletiva de imprensa, disse nunca ter visto um jovem com um talento desses..\nSerá incrível assití-lo na final..");
+        System.out.println("\nVocê está dominando os adversários, e é o maior goleador do campeonato.\nO técnico em uma coletiva de imprensa, disse nunca ter visto um jovem com um talento desses..\nSerá incrível assistí-lo na final..");
         Thread.sleep(3000);
       }
 
       System.out.println("\nVocê está na final do campeonato. Chegou a hora de fazer história pelo " + clubeAtual + ". Boa sorte!!");
       Thread.sleep(3000);
-      System.out.print("----------------------------------------------------------------------------------------------------------");
+      System.out.print("\n----------------------------------------------------------------------------------------------------------");
 
       System.out.println("\n4ª Pergunta\nQual foi o adversário da Seleção Brasileira na sua primeira final de Copa?");
       System.out.println("a) Espanha\nb) Alemanha\nc) Argentina\nd) Uruguai"); // Uruguai
@@ -480,7 +480,7 @@ public static String textCopaDoMundo() {
 
       System.out.println("\nSe prepare para a última pergunta...Seu futuro será decidido aqui!");
       Thread.sleep(2500);
-      System.out.print("----------------------------------------------------------------------------------------------------------");
+      System.out.print("\n----------------------------------------------------------------------------------------------------------");
 
       System.out.println("\nPergunta Final\nQuantos Hat-Tricks, o jogador Cristiano Ronaldo possuí em sua carreira?");
       System.out.println("a) 63\nb) 61\nc) 40\nd) 49");// 61
@@ -536,25 +536,25 @@ public static String textCopaDoMundo() {
       }// BLOCO DE CÓDIGO DOS TIMES REGIÃO 1 (NORDESTE)
   
     if (clubeAtual == clubesSudeste[0] || clubeAtual == clubesSudeste[1] || clubeAtual == clubesSudeste[2]){
-      System.out.println("Você chegou em um ótimo momento, seu clube está disputando o Campeonato Paulista e sua chegada será de grande ajuda!");
+      System.out.println("\nVocê chegou em um ótimo momento, seu clube está disputando o Campeonato Paulista e sua chegada será de grande ajuda!");
 
         if (clubeAtual == clubesSudeste[0] || clubeSorteado == clubesSudeste[0]){
-          System.out.printf("\nO " + clubeAtual + " está na fase de mata-mata do campeonato, e você tem a chance de mostrar para que veio, e, por isso, será escalado como titular no primeiro jogo.\n");
+          System.out.printf("\nO " + clubeAtual + " está na fase de mata-mata do campeonato, e você tem a chance de mostrar para que veio, e por isso, será escalado como titular no primeiro jogo.\n");
         } 
   
         else if (clubeAtual == clubesSudeste[1] || clubeSorteado == clubesSudeste[1]){
-          System.out.printf("\nO " + clubeAtual + " está na fase de mata-mata do campeonato, e você tem a chance de mostrar para que veio, e, por isso, será escalado como titular no primeiro jogo.\n");
+          System.out.printf("\nO " + clubeAtual + " está na fase de mata-mata do campeonato, e você tem a chance de mostrar para que veio, e por isso, será escalado como titular no primeiro jogo.\n");
         } 
   
         else if (clubeAtual == clubesSudeste[2] || clubeSorteado == clubesSudeste[2]){
-          System.out.printf("\nO " + clubeAtual + " está na fase de mata-mata do campeonato, e você tem a chance de mostrar para que veio, e, por isso, será escalado como titular no primeiro jogo.\n");
+          System.out.printf("\nO " + clubeAtual + " está na fase de mata-mata do campeonato, e você tem a chance de mostrar para que veio, e por isso, será escalado como titular no primeiro jogo.\n");
         }
 
       System.out.println("Para garantir um bom resultado para o seu time, e avançar no mata-mata, você deve acertar as perguntas.");
       System.out.println("As perguntas que forem respondidas corretamente somarão 20 pontos a sua pontuação.");
       System.out.println("\nSua pontuação atual na FASE 1 é de " + pontuacaoJogador + " pontos.");
       Thread.sleep(2000);
-      System.out.print("----------------------------------------------------------------------------------------------------------");
+      System.out.print("\n----------------------------------------------------------------------------------------------------------");
       System.out.println("\n1ª Pergunta\nQual é o maior campeão do Campeonato Paulista?");
       System.out.println("a) São Paulo\nb) Palmeiras\nc) Corinthians\nd) Santos"); // Corinthians
       System.out.print("Sua Resposta: ");
@@ -583,7 +583,7 @@ public static String textCopaDoMundo() {
       Thread.sleep(2000);
       System.out.println("\nO " + clubeAtual + " tem outro grande desafio pela frente, e você precisa mostrar seu talento para a torcida, e justificar a escolha do técnico.");
       Thread.sleep(3000);
-      System.out.print("----------------------------------------------------------------------------------------------------------");
+      System.out.print("\n----------------------------------------------------------------------------------------------------------");
 
       System.out.println("\n2ª Pergunta\nQuem ganhou o prêmio de Melhor Jogador da Copa do Mundo de 2014??");
       System.out.println("a) Mário Goetze\nb) Sergio Aguero\nc) Lionel Messi\nd) Bastian Schweinsteiger"); // Lionel Messi
@@ -611,7 +611,7 @@ public static String textCopaDoMundo() {
       Thread.sleep(2000);
       System.out.println("\nVocê está avançando no campeonato. Será que seu desempenho está agradando a torcida do " + clubeAtual + " ?\nSe prepare para o próximo confronto contra o Bragantino, pela semi-final.");
       Thread.sleep(3000);
-      System.out.print("----------------------------------------------------------------------------------------------------------");
+      System.out.print("\n----------------------------------------------------------------------------------------------------------");
 
       System.out.println("\n3ª Pergunta\nQual o maior campeão da Premier League?");
       System.out.println("a) Manchester United\nb) Liverpool\nc) Chelsea\nd) Manchester City"); // Man. United
@@ -649,13 +649,13 @@ public static String textCopaDoMundo() {
       }
 
       else{
-        System.out.println("\nVocê está dominando os adversários, e é o maior goleador do campeonato.\nO técnico em uma coletiva de imprensa, disse nunca ter visto um jovem com um talento desses..\nSerá incrível assití-lo na final..");
+        System.out.println("\nVocê está dominando os adversários, e é o maior goleador do campeonato.\nO técnico em uma coletiva de imprensa, disse nunca ter visto um jovem com um talento desses..\nSerá incrível assistí-lo na final..");
         Thread.sleep(3000);
       }
 
       System.out.println("\nVocê está na final do campeonato. Chegou a hora de fazer história pelo " + clubeAtual + ". Boa sorte!!");
       Thread.sleep(3000);
-      System.out.print("----------------------------------------------------------------------------------------------------------");
+      System.out.print("\n----------------------------------------------------------------------------------------------------------");
 
       System.out.println("\n4ª Pergunta\nQual o maior artilheiro da Premier League?");
       System.out.println("a) Sergio Agüero\nb) Cristiano Ronaldo\nc) Alan Shearer\nd) Steven Gerrard"); // Alan Shearer
@@ -700,7 +700,7 @@ public static String textCopaDoMundo() {
 
       System.out.println("\nSe prepare para a última pergunta...Seu futuro será decidido aqui!");
       Thread.sleep(2500);
-      System.out.print("----------------------------------------------------------------------------------------------------------");
+      System.out.print("\n----------------------------------------------------------------------------------------------------------");
 
       System.out.println("\nPergunta Final\nEm que ano, a Liga Inglesa passou a se chamar Premier League?");
       System.out.println("a) 2013\nb) 1992\nc) 2001\nd) 1995");// 1992
@@ -755,25 +755,25 @@ public static String textCopaDoMundo() {
     } // BLOCO DE CÓDIGO DOS TIMES REGIÃO 2 (SUDESTE)
   
     if (clubeAtual == clubesSul[0] || clubeAtual == clubesSul[1] || clubeAtual == clubesSul[2]){
-      System.out.println("Você chegou em um ótimo momento, seu clube está disputando o Campeonato Gaúcho e sua chegada será de grande ajuda!");
+      System.out.println("\nVocê chegou em um ótimo momento, seu clube está disputando o Campeonato Gaúcho e sua chegada será de grande ajuda!");
 
           if (clubeAtual == clubesSul[0] || clubeSorteado == clubesSul[0]){
-            System.out.printf("\nA " + clubeAtual + " está na fase de mata-mata do campeonato, e você tem a chance de mostrar para que veio, e, por isso, será escalado como titular no primeiro jogo.\n");
+            System.out.printf("\nO " + clubeAtual + " está na fase de mata-mata do campeonato, e você tem a chance de mostrar para que veio, e por isso, será escalado como titular no primeiro jogo.\n");
           } 
           
           else if (clubeAtual == clubesSul[1] || clubeSorteado == clubesSul[1]){
-            System.out.printf("\nO " + clubeAtual + " está na fase de mata-mata do campeonato, e você tem a chance de mostrar para que veio, e, por isso, será escalado como titular no primeiro jogo.\n");
+            System.out.printf("\nO " + clubeAtual + " está na fase de mata-mata do campeonato, e você tem a chance de mostrar para que veio, e por isso, será escalado como titular no primeiro jogo.\n");
           } 
           
           else if (clubeAtual == clubesSul[2] || clubeSorteado == clubesSul[2]){
-            System.out.printf("\nO " + clubeAtual + " está na fase de mata-mata do campeonato, e você tem a chance de mostrar para que veio, e, por isso, será escalado como titular no primeiro jogo.\n");
+            System.out.printf("\nO " + clubeAtual + " está na fase de mata-mata do campeonato, e você tem a chance de mostrar para que veio, e por isso, será escalado como titular no primeiro jogo.\n");
       }
 
       System.out.println("Para garantir um bom resultado para o seu time, e avançar no mata-mata, você deve acertar as perguntas.");
       System.out.println("As perguntas que forem respondidas corretamente somarão 20 pontos a sua pontuação.");
       System.out.println("\nSua pontuação atual na FASE 1 é de " + pontuacaoJogador + " pontos.");
       Thread.sleep(2000);
-      System.out.print("----------------------------------------------------------------------------------------------------------");
+      System.out.print("\n----------------------------------------------------------------------------------------------------------");
       System.out.println("\n1ª Pergunta\nQual é o maior campeão do Campeonato Gaúcho?");
       System.out.println("a) Juventude\nb) Internacional\nc) Grêmio\nd) Caxias do Sul"); // Gremio
       System.out.print("Sua Resposta: ");
@@ -803,7 +803,7 @@ public static String textCopaDoMundo() {
 
       System.out.println("\nO " + clubeAtual + " tem outro grande desafio pela frente, e você precisa mostrar seu talento para a torcida, e justificar a escolha do técnico.");
       Thread.sleep(3000);
-      System.out.print("----------------------------------------------------------------------------------------------------------");
+      System.out.print("\n----------------------------------------------------------------------------------------------------------");
       
       System.out.println("\n2ª Pergunta\nQuantos títulos da LaLiga tem o Real Madrid?");
       System.out.println("a) 35\nb) 40\nc) 31\nd) 39"); // 35
@@ -832,7 +832,7 @@ public static String textCopaDoMundo() {
 
       System.out.println("\nVocê está avançando no campeonato. Será que seu desempenho está agradando a torcida do " + clubeAtual + " ?\nSe prepare para o próximo confronto contra o Maringá, pela semi-final.");
       Thread.sleep(3000);
-      System.out.print("----------------------------------------------------------------------------------------------------------");
+      System.out.print("\n----------------------------------------------------------------------------------------------------------");
 
       System.out.println("\n3ª Pergunta\nQuando a LaLiga foi criada?");
       System.out.println("a) 1935\nb) 1929\nc) 1950\nd) 1963"); // 1929
@@ -870,13 +870,13 @@ public static String textCopaDoMundo() {
       }
 
       else{
-        System.out.println("\nVocê está dominando os adversários, e é o maior goleador do campeonato.\nO técnico em uma coletiva de imprensa, disse nunca ter visto um jovem com um talento desses..\nSerá incrível assití-lo na final..");
+        System.out.println("\nVocê está dominando os adversários, e é o maior goleador do campeonato.\nO técnico em uma coletiva de imprensa, disse nunca ter visto um jovem com um talento desses..\nSerá incrível assistí-lo na final..");
         Thread.sleep(3000);
       }
 
       System.out.println("\nVocê está na final do campeonato. Chegou a hora de fazer história pelo " + clubeAtual + ". Boa sorte!!");
       Thread.sleep(3000);
-      System.out.print("----------------------------------------------------------------------------------------------------------");
+      System.out.print("\n----------------------------------------------------------------------------------------------------------");
 
       System.out.println("\n4ª Pergunta\nA quem pertence o recorde da mais gols em uma edição de LaLiga?");
       System.out.println("a) Karim Benzema\nb) Cristiano Ronaldo\nc) Luís Suarez\nd) Lionel Messi"); // Lionel Messi
@@ -921,7 +921,7 @@ public static String textCopaDoMundo() {
 
       System.out.println("\nSe prepare para a última pergunta...Seu futuro será decidido aqui!");
       Thread.sleep(2500);
-      System.out.print("----------------------------------------------------------------------------------------------------------");
+      System.out.print("\n----------------------------------------------------------------------------------------------------------");
 
       System.out.println("\nPergunta Final\nQuem é o jogador que mais ganhou títulos da LaLiga?");
       System.out.println("a) Lionel Messi\nb) Paco Gento\nc) Carles Puyol\nd) Daniel Alves");// Paco Gento
@@ -1012,7 +1012,7 @@ public static String textCopaDoMundo() {
             }
         }
     }
-    System.out.print("----------------------------------------------------------------------------------------------------------");
+    System.out.print("\n----------------------------------------------------------------------------------------------------------");
     System.out.println("\nQual o maior artilheiro da seleção brasileira?\na) Neymar\nb) Pelé\nc) Zico\nd) Romário");
     System.out.print("Sua resposta: ");
     String resposta = sc.nextLine().toUpperCase();
@@ -1112,7 +1112,7 @@ public static String textCopaDoMundo() {
     System.out.println("Mas antes de tudo, você deve acertar uma pergunta para ter a certeza que se sairá bem na sua estreia!");
     Thread.sleep(3000);
 
-    System.out.print("----------------------------------------------------------------------------------------------------------");
+    System.out.print("\n----------------------------------------------------------------------------------------------------------");
     System.out.println("\n1ª Pergunta\nQuem é o maior artilheiro da história do Brasileirão na era dos ponto corridos?");
     System.out.println("a) Diego Souza");
     System.out.println("b) Gabigol");
@@ -1150,7 +1150,7 @@ public static String textCopaDoMundo() {
         System.out.println("Para garantir a vitória e o seu bom desempenho na partida, acerte a pergunta:");
         Thread.sleep(3000);
 
-        System.out.print("----------------------------------------------------------------------------------------------------------");
+        System.out.print("\n----------------------------------------------------------------------------------------------------------");
         System.out.println("\n2ª Pergunta\nQual jogador tem mais hat-tricks (3 gols em um mesmo jogo) na carreira?\na) Luis Suarez\nb) Lionel Messi\nc) Cristiano Ronaldo\nd) Ronaldo Fenômeno");
         System.out.print("Sua resposta: ");
         do{
@@ -1184,7 +1184,7 @@ public static String textCopaDoMundo() {
         System.out.println("O jogo é contra o líder Flamengo no Maracanã, este jogo terá uma pressão absurda, se ganharem este jogo se tornam favoritos ao título!");
         Thread.sleep(3000);
 
-        System.out.print("----------------------------------------------------------------------------------------------------------");
+        System.out.print("\n----------------------------------------------------------------------------------------------------------");
         System.out.println("\n3ª Pergunta\nO São Paulo é um clube multicampeão, nacionalmente e internacionalmente, e neste século fizeram o feito de serem campeões brasileiro 3 vezes seguidas. Quais foram estes anos?");
         System.out.println("a) 2005, 2006, 2007\nb) 2008, 2009, 2010\nc) 2007, 2008, 2009\nd) 2006, 2007, 2008");
         System.out.print("Sua resposta: ");
@@ -1215,10 +1215,10 @@ public static String textCopaDoMundo() {
     char pergunta4 = '0';
     if(pergunta2 == 'C'){
         
-            System.out.println("\n\nPerto do fim da temporada, o " + timeAtual + " tem um jogo importantíssimo, válido pela semifinal da Libertadores, num grande clássico contra o Corinthians!!\nO jogo de ida foi 0 à 0 no casa do adversário. Mentenha o foco, vença a partida e avance para a final do campeonato.");
+            System.out.println("\n\nPerto do fim da temporada, o " + timeAtual + " tem um jogo importantíssimo, válido pela semifinal da Libertadores, num grande clássico contra o Corinthians!!\nO jogo de ida foi 0 à 0 no casa do adversário. Mantenha o foco, vença a partida e avance para a final do campeonato.");
             Thread.sleep(3000);
 
-            System.out.print("----------------------------------------------------------------------------------------------------------");
+            System.out.print("\n----------------------------------------------------------------------------------------------------------");
             System.out.println("\n4ª Pergunta\nQual o primeiro time brasileiro a ganhar uma Libertadores?\na) Corinthians\nb) Santos\nc) Palmeiras\nd) Flamengo");
             System.out.print("Sua resposta: ");
             do{
@@ -1253,8 +1253,8 @@ public static String textCopaDoMundo() {
             System.out.println("\n\nHoje é a última rodada do Brasileirão e o " + timeAtual +  " só não pode perder para conquistar o Brasileirão, vença a partida e conquiste este título.\nAlém disso, você está disputandoa a artilharia do campeonato com o Gabigol, do Flamengo. Você vai precisar de dois gols para ultrapassá-lo.");
             Thread.sleep(3000);
 
-            System.out.print("----------------------------------------------------------------------------------------------------------");
-            System.out.println("\nPergunta Final\nUm dos Brasileirões mais disputado da história foi o de 2009, onde a diferença do 1º colocado para o 3º foi de 2 pontos. Qual foi o time campeão?");
+            System.out.print("\n----------------------------------------------------------------------------------------------------------");
+            System.out.println("\nPergunta Final Brasileirão\nUm dos Brasileirões mais disputado da história foi o de 2009, onde a diferença do 1º colocado para o 3º foi de 2 pontos. Qual foi o time campeão?");
             System.out.println("a) Cruzeiro\nb) Flamengo\nc) São Paulo\nd) Internacional");
             System.out.print("Sua resposta: ");
             do{
@@ -1285,7 +1285,7 @@ public static String textCopaDoMundo() {
             System.out.println("Além disso, você está disputando a artilharia do campeonato com o Gabigol, do Flamengo. Você vai precisar de dois gols para ultrapassá-lo.");
             Thread.sleep(3000);
 
-            System.out.print("----------------------------------------------------------------------------------------------------------");
+            System.out.print("\n----------------------------------------------------------------------------------------------------------");
             System.out.println("\nPergunta Final Brasileirão\nUm dos Brasileirões mais disputado da história foi o de 2009, onde a diferença do 1º colocado para o 3º foi de 2 pontos. Qual foi o time campeão?");
             System.out.println("a) Cruzeiro\nb) Flamengo\nc) São Paulo\nd) Interncaional");
             System.out.print("Sua resposta: ");
@@ -1320,7 +1320,7 @@ public static String textCopaDoMundo() {
         System.out.println("Os torcedores estão numa grande expectativa sobre o seu desempenho! Não os decepcione!");
         Thread.sleep(3000);
 
-        System.out.print("----------------------------------------------------------------------------------------------------------");
+        System.out.print("\n----------------------------------------------------------------------------------------------------------");
         System.out.println("\nPergunta Final da Libertadores\nQual o maior artilheiro da história da Libertadores?\na) Gabigol (BRA)\nb) Alberto Spencer (EQU)\nc) Fernando Morena (URU)\nd) Daniel Onega (ARG)");
         System.out.print("Sua resposta: ");
         do{
@@ -1676,24 +1676,24 @@ public static void Fase3() throws InterruptedException {
   System.out.println("O seu desempenho atual é de " + desempenho + " pontos.");
   Thread.sleep(3000);
  
-  System.out.print("----------------------------------------------------------------------------------------------------------");
+  System.out.print("\n----------------------------------------------------------------------------------------------------------");
   System.out.println("\n1ª Pergunta\nCristiano Ronaldo é o jogador que mais fez gols em uma única edição de Champions League. Quantos gols ele fez para atingir essa marca?");
-  System.out.println("a) 16 gols");
-  System.out.println("b) 17 gols");
-  System.out.println("c) 18 gols");
+  System.out.println("a) 17 gols");
+  System.out.println("b) 18 gols");
+  System.out.println("c) 19 gols");
   System.out.print("Sua reposta: ");
 
     do {
         perguntaEstreia = sc.next().toUpperCase().charAt(0);
 
         switch (perguntaEstreia) {
-          case 'B':
+          case 'A':
             desempenho += 20;
             System.out.println("\nParabéns!\nOs torcedores do " + nomeDoClube + " estão muito empolgados com a sua estreia, afinal não é todo dia que vemos um jogador fazer DOIS gols na estreia, será esse o novo terror do " + maiorRival + "?");
             System.out.println("\nO seu desempenho atual é de " + desempenho + " pontos.");
             break;
 
-          case 'A':
+          case 'B':
           case 'C':
             System.out.println("\nMandou mal!\nOs torcedores do " + nomeDoClube + " estão chateados com a sua estreia. Você perdeu muitos gols e errou alguns passes, porém nada está perdido. O time é bom e você terá outras oportunidades de fazer bonito, inclusive um clássico contra rival " + maiorRival + ".");
             System.out.println("\nO seu desempenho atual é de " + desempenho + " pontos.");
@@ -1706,10 +1706,10 @@ public static void Fase3() throws InterruptedException {
 
   Thread.sleep(3000);
   char pergunta2 = '0';
-  System.out.println("\nVocê concluiu a partida de estréia, e agora irá jogar pela " + nomeDoCampeonato + ". O jogo será contra o " + timeQualquer + ".\nAcerte a pergunta para ir bem no jogo.");
+  System.out.println("\nVocê concluiu a partida de estreia, e agora irá jogar pela " + nomeDoCampeonato + ". O jogo será contra o " + timeQualquer + ".\nAcerte a pergunta para ir bem no jogo.");
   Thread.sleep(3000);
 
-  System.out.print("----------------------------------------------------------------------------------------------------------");
+  System.out.print("\n----------------------------------------------------------------------------------------------------------");
   System.out.println("\n2ª Pergunta\nQual time perdeu a final da Liga dos Campeões de 2004?");
   System.out.println("a) Bayern de Munique");
   System.out.println("b) Barcelona");
@@ -1745,7 +1745,7 @@ public static void Fase3() throws InterruptedException {
   System.out.println("Acerte a pergunta para ir bem no clássico.");
   Thread.sleep(3000);
 
-  System.out.print("----------------------------------------------------------------------------------------------------------");
+  System.out.print("\n----------------------------------------------------------------------------------------------------------");
   System.out.println("\n3ª Pergunta\nO Real Madrid venceu a primeira edição da Champions League realizada em 1956 e foi campeão por alguns anos seguidos. Em qual ano a taça da Champions League foi conquistada pela primeira vez por um clube diferente do gigante de Madrid?");
   System.out.println("a) 1961, foi conquistada pelo Benfica");
   System.out.println("b) 1962, foi conquistada pelo Milan");
@@ -1775,7 +1775,7 @@ public static void Fase3() throws InterruptedException {
             } else {
               System.out.println("Infelizmente, o seu desempenho na Europa não foi nada perto do esperado, com um acúmulo de várias partidas ruins, iremos rescindir o seu contrato, boa sorte em seu novo desafio!");
               System.out.println("\nO seu desempenho foi de " + desempenho + " pontos.");
-              System.out.println("\nVocê não conseguiu sua vaga na copa do mundo, mas pode finalizar sua carreira com honra na ...");
+              System.out.println("\nVocê não conseguiu sua vaga na copa do mundo, mas pode finalizar sua carreira com honra na...");
               Thread.sleep(2000);
               textFaseQuatro();
 
@@ -1798,11 +1798,11 @@ public static void Fase3() throws InterruptedException {
     Thread.sleep(3000);
     char pergunta4 = '0';
     System.out.println("\nEstá na hora de verificarmos se o seu esforço deu resultado!");
-    System.out.println("Agora é tudo ou nada! Não podemos errar nada agora.");
+    System.out.println("Agora é tudo ou nada! Não podemos errar nada!");
     System.out.println("Você está na sonhada semifinal da Liga dos Campeões, só os quatro melhores clubes chegam até aqui! Vamos em busca da grande final!");
     Thread.sleep(3000);
 
-    System.out.print("----------------------------------------------------------------------------------------------------------");
+    System.out.print("\n----------------------------------------------------------------------------------------------------------");
     System.out.println("\n4ª Pergunta\nA Juventus conhecida como \"Rainha do Vice\" é a equipe que mais tem vices na história da Champions League, quantos vices tem a equipe?");
     System.out.println("a) 6 Vices");
     System.out.println("b) 7 Vices");
@@ -1819,7 +1819,7 @@ public static void Fase3() throws InterruptedException {
               semifinalChampions = 1;
               System.out.println("\nParabéns!");
               System.out.println("Você acertou a pergunta e como resultado o seu desempenho nas semifinais foi ótimo.");
-              System.out.println("Você fez dois gols no jogo de ida e na volta fez um golaço garantindo a nossa classificação a grande final da Champions League");
+              System.out.println("Você fez dois gols no jogo de ida e na volta fez um golaço garantindo a nossa classificação para a grande final da Champions League.");
               System.out.println("Os torcedores do " + nomeDoClube + " estão eufóricos com a sua atuação, e estão muito confiantes no titulo graças a você!");
               System.out.println("\nO seu desempenho atual é de " + desempenho + " pontos.");
               break;
@@ -1837,7 +1837,7 @@ public static void Fase3() throws InterruptedException {
               } else {
                 System.out.println("Infelizmente, o seu desempenho na Europa não foi o esperado. Aqui a cobrança é muito grande e esse não foi o seu único jogo ruim, infelizmente teremos que rescindir o seu contrato. Boa sorte em seus novos desafios!");
                 System.out.println("\nO seu desempenho foi de " + desempenho + " pontos.");
-                System.out.println("\nVocê não conseguiu sua vaga na copa do mundo, mas pode finalizar sua carreira com honra na ...");
+                System.out.println("\nVocê não conseguiu sua vaga na copa do mundo, mas pode finalizar sua carreira com honra na...");
                 Thread.sleep(2000);
                 textFaseQuatro();
 
@@ -1863,7 +1863,7 @@ public static void Fase3() throws InterruptedException {
     System.out.println("\nVocê é o craque do time e o seu desempenho servirá de exemplo para a atuação do " + nomeDoClube + " em campo. Então...");
     Thread.sleep(3000);
 
-    System.out.print("----------------------------------------------------------------------------------------------------------");
+    System.out.print("\n----------------------------------------------------------------------------------------------------------");
     System.out.println("\nPergunta Final\nNa edição de 2021/2022 tivemos o Real Madrid sendo campeão para cima do Liverpool na final por 1x0, quem marcou o gol da equipe merengue e em que minuto o gol saiu?");
     System.out.println("a) Vini Jr aos 42 minutos.");
     System.out.println("b) Benzema aos 42 minutos.");
@@ -1901,11 +1901,11 @@ public static void Fase3() throws InterruptedException {
 
               } else {
                 System.out.println("Você errou quando estava na cara do gol, era a sua grande chance de disputar a copa do mundo, e esse não foi o único jogo ruim e perder a grande final é um grande baque.");
-                System.out.println("Sinto muito pela derrota na grande final, mas ...");
+                System.out.println("Sinto muito pela derrota na grande final, mas...");
                 Thread.sleep(2000);
                 System.out.println("\nInfelizmente, o seu desempenho na Europa não foi o esperado. Aqui a cobrança é muito grande e esse não foi o seu único jogo ruim, infelizmente teremos que rescindir o seu contrato. Boa sorte em seus novos desafios!");
                 System.out.println("\nO seu desempenho foi de " + desempenho + " pontos.");
-                System.out.println("\nVocê não conseguiu sua vaga na copa do mundo, mas pode finalizar sua carreira com honra na ...");
+                System.out.println("\nVocê não conseguiu sua vaga na copa do mundo, mas pode finalizar sua carreira com honra na...");
                 Thread.sleep(2000);
                 textFaseQuatro();
 
@@ -1931,7 +1931,7 @@ public static void Fase3() throws InterruptedException {
     System.out.println("\nVocê é o craque do time e o seu desempenho servirá de exemplo para a atuação do " + nomeDoClube + " em campo. Então...");
     Thread.sleep(3000);
 
-    System.out.print("----------------------------------------------------------------------------------------------------------");
+    System.out.print("\n----------------------------------------------------------------------------------------------------------");
     System.out.println("\nPergunta Final\nQuem foi o ÚNICO goleiro que ganhou a Bola de Ouro?");
     System.out.println("a) Iker Casillas");
     System.out.println("b) Thibaut Courtois");
@@ -1959,11 +1959,11 @@ public static void Fase3() throws InterruptedException {
             case 'E':
               System.out.println("\nMandou mal!");
               System.out.println("Você errou quando estava na cara do gol, era a sua grande chance de disputar a copa do mundo, e esse não foi o único jogo ruim, perder o clássico e o título dessa maneira é um grande baque.");
-              System.out.println("Sinto muito pela derrota no clássico, mas ...");
+              System.out.println("Sinto muito pela derrota no clássico, mas...");
               Thread.sleep(2000);
               System.out.println("\nInfelizmente, o seu desempenho na Europa não foi o esperado. Aqui a cobrança é muito grande e esse não foi o seu único jogo ruim, infelizmente teremos que rescindir o seu contrato. Boa sorte em seus novos desafios!");
               System.out.println("\nO seu desempenho foi de " + desempenho + " pontos.");
-              System.out.println("\nVocê não conseguiu sua vaga na copa do mundo, mas pode finalizar sua carreira com honra na ...");
+              System.out.println("\nVocê não conseguiu sua vaga na copa do mundo, mas pode finalizar sua carreira com honra na...");
               Thread.sleep(2000);
               textFaseQuatro();
 
@@ -1981,7 +1981,7 @@ public static void Fase3() throws InterruptedException {
         && perguntaExtra != 'E');
   }
 
-  System.out.println("\nVocê lutou muito e conseguiu a sonhada vaga para a ...");
+  System.out.println("\nVocê lutou muito e conseguiu a sonhada vaga para a...");
   Thread.sleep(2000);
   textCopaDoMundo();
 
@@ -1992,7 +1992,7 @@ public static void Fase3() throws InterruptedException {
     System.out.println("Você terá um novo medidor de desempenho durante a copa do mundo.\nO seu desempenho atual é de " + desempenhoCopa + " pontos.");
     Thread.sleep(3000);
     
-    System.out.print("----------------------------------------------------------------------------------------------------------");
+    System.out.print("\n----------------------------------------------------------------------------------------------------------");
     System.out.println("\n1ª Pergunta\nQual confederação ganhou mais Copas do Mundo combinadas?");
     System.out.println("a) CONMEBOL");
     System.out.println("b) UEFA");
@@ -2031,7 +2031,7 @@ public static void Fase3() throws InterruptedException {
     System.out.println("Você precisa vencer esse jogo para avançar para as quartas de final, boa sorte!");
     Thread.sleep(3000);
 
-    System.out.print("----------------------------------------------------------------------------------------------------------");
+    System.out.print("\n----------------------------------------------------------------------------------------------------------");
     System.out.println("\n2ª Pergunta\nSó a Alemanha (entre 1982 e 1990) e o Brasil (entre 1994 e 2002), conseguiram fazer o quê na Copa do Mundo?");
     System.out.println("a) Ter três vencedores da Chuteira de Ouro seguidas");
     System.out.println("b) Ser comandado pelo mesmo treinador três vezes seguidas");
@@ -2069,7 +2069,7 @@ public static void Fase3() throws InterruptedException {
       System.out.println("Você precisa vencer esse jogo para avançar para a semifinal da competição, boa sorte!");
       Thread.sleep(3000);
       
-      System.out.print("----------------------------------------------------------------------------------------------------------");
+      System.out.print("\n----------------------------------------------------------------------------------------------------------");
       System.out.println("\n3ª Pergunta\nO que aconteceu de incomum na vitória da Holanda nos pênaltis em 2014 sobre a Costa Rica?");
       System.out.println("a) O pênalti da vitória teve que ser repetido duas vezes");
       System.out.println("b) Todos os pênaltis da Costa Rica acertaram a trave");
@@ -2102,18 +2102,18 @@ public static void Fase3() throws InterruptedException {
       if (campeao != 0 && campeao != 10) {
       Thread.sleep(3000);
       char perguntaCopa4 = '0';
-      System.out.println("Passamos das quartas de final!\nEssa realmente foi difícil!");
+      System.out.println("\nPassamos das quartas de final!\nEssa realmente foi difícil!");
       System.out.println("Esse jogo será contra a seleção da Argentina pela semifinal.");
       System.out.println("Você precisa vencer esse jogo para avançar para a grande final da competição, boa sorte!");
       Thread.sleep(3000);
        
-      System.out.print("----------------------------------------------------------------------------------------------------------");
+      System.out.print("\n----------------------------------------------------------------------------------------------------------");
       System.out.println("\n4ª Pergunta\nQual desses países NÃO sediou a Copa do Mundo mais de uma vez?");
-      System.out.println("A - México");
-      System.out.println("B - Espanha");
-      System.out.println("C - Itália");
-      System.out.println("D - França");
-      System.out.println("E - Alemanha");
+      System.out.println("a) México");
+      System.out.println("b) Espanha");
+      System.out.println("c) Itália");
+      System.out.println("d) França");
+      System.out.println("e) Alemanha");
 
         do {
             perguntaCopa4 = sc.next().toUpperCase().charAt(0);
@@ -2142,15 +2142,15 @@ public static void Fase3() throws InterruptedException {
 
       if (campeao != 0 && campeao != 10) {
       Thread.sleep(3000);
-      char perguntaCopa5 = '0';
+      char perguntaFinalCopa = '0';
       System.out.println("\nPARABÉNS!");
       System.out.println("Você chegou na grandiosa final da COPA DO MUNDO! Foram muitos jogos que exigiram muito de você para chegar até aqui.");
       System.out.println("A grande final será contra a ALEMANHA!");
-      System.out.println("Não se esqueça de tudo que passou, pense bem, antes de responder e boa sorte!");
+      System.out.println("Não se esqueça de tudo que passou, pense bem antes de responder e boa sorte!");
       Thread.sleep(3000);
 
-      System.out.println("----------------------------------------------------------------------------------------------------------");
-      System.out.println("5ª Pergunta\nQual desses presidentes da FIFA deu nome ao troféu da Copa do Mundo?");
+      System.out.println("\n----------------------------------------------------------------------------------------------------------");
+      System.out.println("Pergunta FINAL\nQual desses presidentes da FIFA deu nome ao troféu da Copa do Mundo?");
       System.out.println("a) Rodolphe Seeldrayers");
       System.out.println("b) Robert Guerin");
       System.out.println("c) Ernst Thommen");
@@ -2158,12 +2158,12 @@ public static void Fase3() throws InterruptedException {
       System.out.println("e) Jules Rimet");
 
         do {
-            perguntaCopa5 = sc.next().toUpperCase().charAt(0);
+          perguntaFinalCopa = sc.next().toUpperCase().charAt(0);
 
-            switch (perguntaCopa5) {
+            switch (perguntaFinalCopa) {
               case 'E':
                 desempenhoCopa += 20;
-                System.out.println("                                                 ||");
+                System.out.println("\n                                                 ||");
                 System.out.println("|||||||     ||     |||||||     ||     ||||||| |||||| ||   || ||||||");
                 System.out.println("||   ||    ||||    ||   ||    ||||    ||   || ||     |||  || ||    ");
                 System.out.println("|||||||   ||  ||   |||||||   ||  ||   ||||||| |||||| || |||| ||||||");
@@ -2173,7 +2173,8 @@ public static void Fase3() throws InterruptedException {
                 System.out.println("Devolvemos o vexame de 2014! Que partida, craque! Você fez 4 gols e devolvemos o tão falado 7x1!");
                 System.out.println("Estão te chamando por ai de o \"novo Pelé\", que honra, hein?!");
                 System.out.println("\nO seu desempenho na copa foi de " + desempenhoCopa + " pontos.");
-                System.out.println("\nObrigado por jogar Football Career Java! Volte sempre que quiser! :)");
+                System.out.println("\n\nObrigado por jogar Football Career Java!\nVolte sempre que quiser! :)");
+                System.exit(0);
                 break;
 
               case 'A':
@@ -2184,13 +2185,14 @@ public static void Fase3() throws InterruptedException {
                 System.out.println("\nInfelizmente você não conseguiu atingir o máximo que o jogo tem para oferecer, tente jogar novamente para conseguir um melhor final de carreira para o seu jogador!");
                 System.out.println("Você concluiu o jogo!");
                 System.out.println("Obrigado por jogar Football Career Java! :)");
+                System.exit(0);
                 break;
 
               default:
                 System.out.print("Opção inválida! Digite novamente: ");
         }
-      } while (perguntaCopa5 != 'A' && perguntaCopa5 != 'B' && perguntaCopa5 != 'C' && perguntaCopa5 != 'D'
-          && perguntaCopa5 != 'E');
+      } while (perguntaFinalCopa != 'A' && perguntaFinalCopa != 'B' && perguntaFinalCopa != 'C' && perguntaFinalCopa != 'D'
+          && perguntaFinalCopa != 'E');
     }
 
     if (campeao == 10) {
@@ -2239,7 +2241,7 @@ public static void Fase3() throws InterruptedException {
         System.out.println("\nVocê teve a oportunidade de escolher a região, mas só poderá escolher o time se acertar a pergunta, caso contrário, seu time será sorteado.");
         Thread.sleep(2000);
 
-        System.out.print("----------------------------------------------------------------------------------------------------------");
+        System.out.print("\n----------------------------------------------------------------------------------------------------------");
         System.out.println("\nQual clube é o maior vencedor da Copa Libertadores?\na) Boca Juniors\nb) São Paulo\nc) Palmeiras\nd) Independiente");
         System.out.print("Sua resposta: ");     // pergunta para escolher o time
 
@@ -2346,7 +2348,7 @@ public static void Fase3() throws InterruptedException {
         System.out.println("Acerte a pergunta abaixo para saber como foi a sua estreia.");
         Thread.sleep(3000);
 
-        System.out.print("----------------------------------------------------------------------------------------------------------");
+        System.out.print("\n----------------------------------------------------------------------------------------------------------");
         System.out.println("\n1ª Pergunta\nQual o maior campeão da Europa League?\na) Sevilla\nb) Manchester United\nc) PSV\nd) Villarreal ");
         System.out.print("Sua reposta: ");
         do{
@@ -2380,7 +2382,7 @@ public static void Fase3() throws InterruptedException {
         System.out.println("Acerte a pergunta abaixo para saber como foi a sua estréia na Sul-Americana.");
         Thread.sleep(3000);
 
-        System.out.print("----------------------------------------------------------------------------------------------------------");
+        System.out.print("\n----------------------------------------------------------------------------------------------------------");
         System.out.println("\n2ª Pergunta\nQual o clube brasileiro que mais ganhou a Copa Sul-Americana?\na) Internacional\nb) Chapecoense\nc) São Paulo\nd) Athletico-PR");
         System.out.print("Sua reposta: ");
         do{
@@ -2413,7 +2415,7 @@ public static void Fase3() throws InterruptedException {
         System.out.println("Acerte a pergunta abaixo para saber se vai classificar ou não o " + seuTime + " para a Libertadores.");
         Thread.sleep(3000);
 
-        System.out.print("----------------------------------------------------------------------------------------------------------");
+        System.out.print("\n----------------------------------------------------------------------------------------------------------");
         System.out.println("\n3ª Pergunta\nQual jogador que mais recebeu cartões amarelos na história do campeonato brasileiro?\na) Felipe Melo\nb) Índio\nc) Lugano\nd) Fábio Luciano");
         System.out.print("Sua resposta: ");
         do{
@@ -2448,7 +2450,7 @@ public static void Fase3() throws InterruptedException {
           System.out.println("Acerte a pergunta abaixo para saber se conseguiu reverter o placar negativo.");
           Thread.sleep(3000);
 
-          System.out.print("----------------------------------------------------------------------------------------------------------");
+          System.out.print("\n----------------------------------------------------------------------------------------------------------");
           System.out.println("\n4ª Pergunta\nEm que ano não teve uma final da Sul-Americana?\na) 2007\nb) 2013\nc) 2016\nd) 2021");
           System.out.print("Sua resposta: ");
           do{
@@ -2484,7 +2486,7 @@ public static void Fase3() throws InterruptedException {
         Thread.sleep(3000);
 
 
-        System.out.print("----------------------------------------------------------------------------------------------------------");
+        System.out.print("\n----------------------------------------------------------------------------------------------------------");
         System.out.println("\nPergunta Final Brasileirão\nQual foi o campeão do Campeonato Brasileiro de 1995?\na) Cruzeiro\nb) Santos\nc) Vasco\nd) Botafogo");
         System.out.print("Sua resposta: ");
         do{
@@ -2517,7 +2519,7 @@ public static void Fase3() throws InterruptedException {
           System.out.println("Acerte a pergunta abaixo para calar a boca dos torcedores que estão te chamando de pipoqueiro.");
           Thread.sleep(3000);
 
-          System.out.print("----------------------------------------------------------------------------------------------------------");
+          System.out.print("\n----------------------------------------------------------------------------------------------------------");
           System.out.println("\nPergunta Final Sul-Americana\nQuem foi o jogador mais jovem a marcar um gol na história da Copa Libertadores e qual era a sua idade na época?\na) Ângelo 16 anos\nb) Endrick 16 anos\nc) Luiz Araújo 20 anos\nd) Miguel Borja 22 anos");
           System.out.print("Sua resposta: ");
 
