@@ -42,13 +42,18 @@ class JogoCompleto {
       
       switch (escolha) {
         case 1:
-          System.out.println("Vamos iniciar sua jornada como jogador profissional!!");
+          System.out.println("\n\nVamos iniciar sua jornada como jogador profissional!!");
           Jogar();
           break;
         case 2:
-          System.out.println("Você será testado com perguntas gerais sobre futebol.");
-          System.out.println("Em cada fase você deve atingir uma pontuação mínima para avançar de fase.");
-          System.out.println("Caso o jogador não atinja a pontuação mínima, ele encerra sua carreira.");
+          System.out.println("-------------------------------------------------------------------------------------------------------------------------------------------------");
+          System.out.println("|                                                                                                                                               |");
+          System.out.println("|                                             Você será testado com perguntas gerais sobre futebol.                                             |");
+          System.out.println("|                                   Em cada fase você deve atingir uma pontuação mínima para avançar de fase.                                   |");
+          System.out.println("|                       Caso o jogador não atinja a pontuação mínima durante as primeiras fases, ele encerra sua carreira.                      |");
+          System.out.println("|  Durante a fase 3, você precisa atingir uma quantidade mínima de pontos e ser campeão de algum campeonato para avançar para a Copa do mundo.  |");
+          System.out.println("|                                                                                                                                               |");
+          System.out.println("-------------------------------------------------------------------------------------------------------------------------------------------------");
           tecleParaContinuar();
           break;
         case 3:
@@ -110,7 +115,8 @@ public static String textFaseQuatro() {
 
 public static String textCopaDoMundo() {
   StringBuilder sb = new StringBuilder();
-  System.out.println("\n||||||||| ||||||||||  ||||||||   |||||||        |||||||   |||||||||        ||    ||   ||   ||  ||||   |  |||||||    |||||||||");
+  System.out.println("");
+  System.out.println("||||||||| ||||||||||  ||||||||   |||||||        |||||||   |||||||||        ||    ||   ||   ||  ||||   |  |||||||    |||||||||");
   System.out.println("||        ||      ||  ||    ||  ||     ||       ||    ||| ||     ||        ||||||||   ||   ||  || ||  |  ||    |||  ||     ||");
   System.out.println("||        ||      ||  ||||||||  ||     ||       ||    ||| ||     ||        || || ||   ||   ||  ||  || |  ||    |||  ||     ||");
   System.out.println("||        ||      ||  ||        |||||||||       ||    ||| ||     ||        ||    ||   ||   ||  ||   |||  ||    |||  ||     ||");
