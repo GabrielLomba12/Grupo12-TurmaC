@@ -24,7 +24,7 @@ class JogoCompleto {
     }
   public static void main(String[] args) throws InterruptedException {
 
-    int escolha;
+    String escolha;
     do {
       System.out.println("@________________________________@"); // MENU DO JOGO
       System.out.println("|  @__________________________@  |");
@@ -38,14 +38,14 @@ class JogoCompleto {
       System.out.println("|  |__________________________|  |");
       System.out.println("@________________________________@");
       System.out.print("\n Escolha uma opção: ");
-      escolha = sc.nextInt();
+      escolha = sc.next();
       
       switch (escolha) {
-        case 1:
+        case "1":
           System.out.println("\n\nVamos iniciar sua jornada como jogador profissional!!");
           Jogar();
           break;
-        case 2:
+        case "2":
           System.out.println("-------------------------------------------------------------------------------------------------------------------------------------------------");
           System.out.println("|                                                                                                                                               |");
           System.out.println("|                                             Você será testado com perguntas gerais sobre futebol.                                             |");
@@ -56,12 +56,12 @@ class JogoCompleto {
           System.out.println("-------------------------------------------------------------------------------------------------------------------------------------------------");
           tecleParaContinuar();
           break;
-        case 3:
+        case "3":
           System.out.println("Todos direitos reservados: Jefferson Cavalcante / Gabriel Lomba / Lucas Gouveia / Vitor Cobeio.");
           System.out.println("2023");
           tecleParaContinuar();
           break;
-        case 4:
+        case "4":
           System.out.println("Você saiu do jogo!");
           break;
         default:
@@ -69,7 +69,7 @@ class JogoCompleto {
           break;
       }
 
-    } while (escolha != 4);
+    } while (escolha != "4");
 
   }
 
